@@ -12,8 +12,8 @@ with open('dxcc-2020-02.csv', mode='r') as infile:
     for row in reader:
         row['entityCode'] = int(row['entityCode'])
         row['deleted'] = (row['deleted'] == 'Y')
-        row['outgoingQslService'] = (row['deleted'] == 'Y')
-        row['thirdPartyTraffic'] = (row['deleted'] == 'Y')
+        row['outgoingQslService'] = (row['outgoingQslService'] == 'Y')
+        row['thirdPartyTraffic'] = (row['thirdPartyTraffic'] == 'Y')
 
         # Continent must be an array for Maldives and Turkey
         temp = row['continent'].split(',')

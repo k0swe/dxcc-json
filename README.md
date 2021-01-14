@@ -13,3 +13,34 @@ document was imported into a
 for formatting and cleansing. I added country codes, unicode flag glyphs and callsign prefix regular
 expressions (regexes), and exported the spreadsheet as the CSV contained in this repository.
 Finally, the included python script generates the JSON file.
+
+One simple way to generate a smaller file with just what you need is to use the `jq` utility.
+
+```commandline
+$ < dxcc.json jq -c '{dxcc: [ .dxcc[] | select( .deleted==false ) | 
+    {id: .entityCode, name: .name, prefixRegex: .prefixRegex, flag: .flag} ]}' > dxcc-filter.json
+
+{
+  "dxcc": [
+    {
+      "id": 1,
+      "name": "Canada",
+      "prefixRegex": "^V[A-GOY][A-Z0-9/]*$",
+      "flag": "🇨🇦"
+    },
+    {
+      "id": 3,
+      "name": "Afghanistan",
+      "prefixRegex": "^(YA|T6)[A-Z0-9/]*$",
+      "flag": "🇦🇫"
+    },
+...
+    {
+      "id": 522,
+      "name": "Kosovo",
+      "prefixRegex": "^Z6[A-Z0-9/]*$",
+      "flag": "🇽🇰"
+    }
+  ]
+}
+```

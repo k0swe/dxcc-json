@@ -1,4 +1,4 @@
-Prefix,Entity Name,Continent,ITU Zone,CQ Zone,Entity Code,Deleted,ARRL Outgoing QSL Service,U.S. amateurs may legally handle third-party message traffic,Valid Beginning,Not Valid After,Notes,Country Code,Flag,Prefix Regular Expression
+prefix,name,continent,itu,cq,entityCode,deleted,outgoingQslService,thirdPartyTraffic,validStart,validEnd,notes,countryCode,flag,prefixRegex
 ,Spratly Islands,AS,50,26,247,N,N,N,,,Unofficial prefix,ZZ,,
 1A,Sovereign Military Order of Malta,EU,28,15,246,N,N,N,,,Unofficial prefix,ZZ,,^1A[A-Z0-9/]*$
 3A,Monaco,EU,27,14,260,N,Y,N,,,,MC,🇲🇨,^3A[A-Z0-9/]*$
@@ -79,7 +79,7 @@ CA-CE,Chile,SA,"14,16",12,112,N,Y,Y,,,,CL,🇨🇱,^C[A-E][A-Z0-9/]*$
 CE0,Easter Island,SA,63,12,47,N,Y,Y,,,,CL,🇨🇱,^CE0[A-Z0-9/]*$
 CE0,Juan Fernández Islands,SA,14,12,125,N,Y,Y,,,,CL,🇨🇱,^CE0[A-Z0-9/]*$
 CE0,Desventuradas Islands,SA,14,12,217,N,Y,Y,,,,CL,🇨🇱,^CE0[A-Z0-9/]*$
-CE9/KC4,Antarctica,AN,"67, 69-74","12, 13, 29, 30, 32, 38, 39",13,N,Y,N,,,QSL via country under whose auspices the particular station is operating.  The availability of a third-party traffic agreement and a QSL Bureau applies to the country under whose auspices the particular station is operating.,AQ,🇦🇶,^(CE9|KC4)[A-Z0-9/]*$
+CE9/KC4,Antarctica,AN,"67,69,70,71,72,73,74","12, 13, 29, 30, 32, 38, 39",13,N,Y,N,,,QSL via country under whose auspices the particular station is operating.  The availability of a third-party traffic agreement and a QSL Bureau applies to the country under whose auspices the particular station is operating.,AQ,🇦🇶,^(CE9|KC4)[A-Z0-9/]*$
 "CM,CO",Cuba,NA,11,8,70,N,Y,Y,,,,CU,🇨🇺,^C[MO][A-Z0-9/]*$
 CN,Morocco,AF,37,33,446,N,N,N,,,,MA,🇲🇦,^CN[A-Z0-9/]*$
 CP,Bolivia,SA,"12,14",10,104,N,Y,Y,,,,BO,🇧🇴,^CP[A-Z0-9/]*$
@@ -262,7 +262,7 @@ TU,Côte d'Ivoire,AF,46,35,428,N,N,N,1960-08-07,,,CI,🇨🇮,^TU[A-Z0-9/]*$
 TY,Benin,AF,46,35,416,N,N,N,1960-08-01,,,BJ,🇧🇯,^TY[A-Z0-9/]*$
 TZ,Mali,AF,46,35,442,N,Y,N,1960-06-20,,,ML,🇲🇱,^TZ[A-Z0-9/]*$
 "UA-UI1-7,RA-RZ",European Russia,EU,"19, 20, 29, 30",16,54,N,Y,N,,,,RU,🇷🇺,^(U[A-I][1-7]|R[A-Z])[A-Z0-9/]*$
-"UA-UI8-0,RA-RZ",Asiatic Russia,AS,"20-26, 30-35, 75","16, 17, 18, 19, 23",15,N,Y,N,,,,RU,🇷🇺,^(U[A-I][089]|R[A-Z])[A-Z0-9/]*$
+"UA-UI8-0,RA-RZ",Asiatic Russia,AS,"20,21,22,23,24,25,26,30,31,32,33,34,35,75","16, 17, 18, 19, 23",15,N,Y,N,,,,RU,🇷🇺,^(U[A-I][089]|R[A-Z])[A-Z0-9/]*$
 "UA2,RA2",Kaliningrad,EU,29,15,126,N,Y,N,,,,RU,🇷🇺,^[UR]A2[A-Z0-9/]*$
 UJ-UM,Uzbekistan,AS,30,17,292,N,N,N,,,,UZ,🇺🇿,^U[J-M][A-Z0-9/]*$
 UN-UQ,Kazakhstan,AS,"29,30,31",17,130,N,Y,N,,,,KZ,🇰🇿,^U[N-Q][A-Z0-9/]*$

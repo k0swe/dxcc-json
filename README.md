@@ -12,3 +12,4 @@ document was imported into a
 [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1N1eMxi54yTwvizOzVeugWtLxfXGfK92WOavEjnfIdFw/edit#gid=0)
 for formatting and cleansing. I added country codes, unicode flag glyphs and callsign prefix regular
 expressions (regexes), and exported the spreadsheet as the CSV contained in this repository.
+Finally, the included python script generates the JSON file.

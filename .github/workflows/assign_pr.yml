@@ -1,0 +1,8 @@
+name: 'Auto Assign'
+on:
+  pull_request:
+    types: [opened, ready_for_review]
+
+jobs:
+  add-reviewers:
+    uses: k0swe/.github/.github/workflows/assign_pr.yml@main

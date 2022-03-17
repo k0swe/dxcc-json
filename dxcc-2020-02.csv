@@ -179,7 +179,7 @@ JX,Jan Mayen,EU,18,40,118,N,Y,N,,,,SJ,🇸🇯,^JX[A-Z0-9/]*$
 JY,Jordan,AS,39,20,342,N,Y,Y,,,,JO,🇯🇴,^JY[A-Z0-9/]*$
 "K,W,N,AA,AB,AC,AD,AE,AF,AG,AH,AI,AJ,AK",United States of America,NA,"6,7,8","3,4,5",291,N,N,Y,,,,US,🇺🇸,^(K|W|N|A[A-K])[A-Z0-9/]*$
 KG4,Guantanamo Bay,NA,11,8,105,N,N,Y,,,,US,🇺🇸,^KG4[A-Z0-9/]*$
-KH0,Mariana Islands,OC,64,27,166,N,N,Y,,,,US,🇺🇸,^KH0[A-Z0-9/]*$
+KH0,Mariana Islands,OC,64,27,166,N,N,Y,,,,MP,🇲🇵,^KH0[A-Z0-9/]*$
 KH1,Howland and Baker Islands,OC,61,31,20,N,N,Y,,,,UM,🇺🇲,^KH1[A-Z0-9/]*$
 KH2,Guam,OC,64,27,103,N,Y,Y,,,,GU,🇬🇺,^KH2[A-Z0-9/]*$
 KH3,Johnston Atoll,OC,61,31,123,N,Y,Y,,,,US,🇺🇸,^KH3[A-Z0-9/]*$
@@ -192,7 +192,7 @@ KH8,Swains Island,OC,62,32,515,N,Y,Y,2006-07-22,,,AS,🇦🇸,^KH8[A-Z0-9/]*$
 KH9,Wake Island,OC,65,31,297,N,N,Y,,,,US,🇺🇸,^KH9[A-Z0-9/]*$
 "KL,AL,NL,WL",Alaska,NA,"1,2",1,6,N,Y,Y,,,,US,🇺🇸,^[KANW]L[A-Z0-9/]*$
 KP1,Navassa Island,NA,11,8,182,N,N,Y,,,,US,🇺🇸,^KP1[A-Z0-9/]*$
-KP2,Virgin Islands,NA,11,8,285,N,Y,Y,,,,US,🇺🇸,^KP2[A-Z0-9/]*$
+KP2,US Virgin Islands,NA,11,8,285,N,Y,Y,,,,VI,🇻🇮,^KP2[A-Z0-9/]*$
 "KP3,KP4",Puerto Rico,NA,11,8,202,N,Y,Y,,,,PR,🇵🇷,^KP[34][A-Z0-9/]*$
 KP5,Desecheo Island,NA,11,8,43,N,N,Y,1979-03-01,,,PR,🇵🇷,^KP5[A-Z0-9/]*$
 "LA,LB,LC,LD,LE,LF,LG,LH,LI,LJ,LK,LL,LM,LN",Norway,EU,18,14,266,N,Y,N,,,,NO,🇳🇴,^L[A-N][A-Z0-9/]*$

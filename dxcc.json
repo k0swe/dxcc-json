@@ -4559,7 +4559,7 @@
       "name": "Puerto Rico",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "KP3,KP4",
+      "prefix": "KP3,KP4,WP3,WP4,NP3,NP4",
       "prefixRegex": "^KP[34][A-Z0-9/]*$",
       "thirdPartyTraffic": true,
       "validEnd": "",

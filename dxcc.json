@@ -1878,7 +1878,7 @@
       "notes": "Contacts made September 17, 1973, and after, count as Federal Republic of Germany (DA-DL) or German Democratic Republic (Y2-Y9).",
       "outgoingQslService": false,
       "prefix": "DA,DB,DC,DD,DE,DF,DG,DH,DI,DJ,DK,DL",
-      "prefixRegex": "^DA-DM[A-Z0-9/]*$",
+      "prefixRegex": "^D[A-M][A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "1973-09-16",
       "validStart": ""

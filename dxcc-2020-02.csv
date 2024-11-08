@@ -356,7 +356,7 @@ CN2,Tangier,AF,37,33,264,Y,N,N,,1960-06-30,"Contacts made July 1, 1960, and afte
 CR8,Daman and Diu,AS,41,22,42,Y,N,N,,1961-12-31,,ZZ,,^CR8[A-Z0-9/]*$
 CR8,Goa,AS,41,22,101,Y,N,N,,1961-12-31,,ZZ,,^CR8[A-Z0-9/]*$
 "CR8,CR10",Portuguese Timor,OC,54,28,200,Y,N,N,,1976-09-14,,ZZ,,^CR(8|10)[A-Z0-9/]*$
-"DA,DB,DC,DD,DE,DF,DG,DH,DI,DJ,DK,DL",West Germany,EU,28,14,81,Y,N,N,,1973-09-16,"Contacts made September 17, 1973, and after, count as Federal Republic of Germany (DA-DL) or German Democratic Republic (Y2-Y9).",ZZ,,^DA-DM[A-Z0-9/]*$
+"DA,DB,DC,DD,DE,DF,DG,DH,DI,DJ,DK,DL",West Germany,EU,28,14,81,Y,N,N,,1973-09-16,"Contacts made September 17, 1973, and after, count as Federal Republic of Germany (DA-DL) or German Democratic Republic (Y2-Y9).",ZZ,,^D[A-M][A-Z0-9/]*$
 "DM,Y2,Y3,Y4,Y5,Y6,Y7,Y8,Y9",East Germany,EU,28,14,229,Y,N,N,1973-09-17,1990-10-02,"On October 3, 1990, German Democratic Republic became part of Federal Republic of Germany.",ZZ,,^(DM|Y[2-9])[A-Z0-9/]*$
 EA9,Ifni,AF,37,33,113,Y,N,N,,1969-05-13,,ZZ,,^EA9[A-Z0-9/]*$
 FF,French West Africa,AF,46,35,59,Y,N,N,,1960-08-06,,ZZ,,^FF[A-Z0-9/]*$

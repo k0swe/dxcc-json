@@ -5134,8 +5134,8 @@
       "name": "France",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "F",
-      "prefixRegex": "^F[A-Z0-9/]*$",
+      "prefix": "F,TM",
+      "prefixRegex": "^F|TM[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""

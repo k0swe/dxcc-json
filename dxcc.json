@@ -5134,8 +5134,8 @@
       "name": "France",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "F",
-      "prefixRegex": "^F[A-Z0-9/]*$",
+      "prefix": "F,HW,HX,HY,TH,TM,TP,TQ,TV,TW,TX",
+      "prefixRegex": "^(F|HW|HX|HY|TH|TM|TP|TQ|TV|TW|TX)[A-Z0-9]+$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -6172,8 +6172,8 @@
       "name": "Portugal",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "CT",
-      "prefixRegex": "^CT[A-Z0-9/]*$",
+      "prefix": "CQ,CR,CS,CT",
+      "prefixRegex": "^(CQ|CR|CS|CT)[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""

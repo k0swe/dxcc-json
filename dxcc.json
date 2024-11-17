@@ -2638,11 +2638,11 @@
       "itu": [
         28
       ],
-      "name": "International Telecommunication Union Headquarters",
+      "name": "ITU Geneva",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "4U",
-      "prefixRegex": "^4U[A-Z0-9/]*$",
+      "prefix": "4U1ITU",
+      "prefixRegex": "^4U1ITU.*$",
       "thirdPartyTraffic": true,
       "validEnd": "",
       "validStart": ""
@@ -2852,29 +2852,6 @@
       "prefixRegex": "^VS9K[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "1982-03-10",
-      "validStart": ""
-    },
-    {
-      "continent": [
-        "EU"
-      ],
-      "countryCode": "ZZ",
-      "cq": [
-        16
-      ],
-      "deleted": true,
-      "entityCode": 128,
-      "flag": "",
-      "itu": [
-        19
-      ],
-      "name": "Karelo-Finnish Soviet Socialist Republic",
-      "notes": "Contacts made July 1, 1960, and after, count as European Russia (UA-UI1-7,RA-RZ).",
-      "outgoingQslService": false,
-      "prefix": "UN1",
-      "prefixRegex": "^UN1[A-Z0-9/]*$",
-      "thirdPartyTraffic": false,
-      "validEnd": "1960-06-30",
       "validStart": ""
     },
     {
@@ -5732,7 +5709,7 @@
       "itu": [
         13
       ],
-      "name": "Saint Peter and Saint Paul Archipelago",
+      "name": "St. Peter & St. Paul Rocks",
       "notes": "",
       "outgoingQslService": true,
       "prefix": "PP0S,PQ0S,PR0S,PS0S,PT0S,PU0S,PV0S,PW0S,PX0S,PY0S",
@@ -6422,7 +6399,7 @@
       "itu": [
         39
       ],
-      "name": "Sovereign Base Areas of Akrotiri and Dhekelia",
+      "name": "UK Bases on Cyprus",
       "notes": "",
       "outgoingQslService": true,
       "prefix": "ZC4",
@@ -6563,8 +6540,8 @@
       "name": "United Nations Headquarters",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "4U",
-      "prefixRegex": "^4U[A-Z0-9/]*$",
+      "prefix": "4U1UN",
+      "prefixRegex": "^4U1UN.*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -7259,7 +7236,7 @@
       "itu": [
         44
       ],
-      "name": "Democratic People's Republic of Korea",
+      "name": "DPR of Korea",
       "notes": "",
       "outgoingQslService": false,
       "prefix": "P5",

@@ -285,7 +285,7 @@
       "validEnd": "",
       "validStart": ""
     },
-    {
+  {
       "continent": [
         "AN"
       ],
@@ -314,8 +314,8 @@
       "name": "Antarctica",
       "notes": "QSL via country under whose auspices the particular station is operating.  The availability of a third-party traffic agreement and a QSL Bureau applies to the country under whose auspices the particular station is operating.",
       "outgoingQslService": true,
-      "prefix": "CE9,KC4",
-      "prefixRegex": "^(CE9|KC4)[A-Z0-9/]*$",
+      "prefix": "CE9,KC4,RI1",
+      "prefixRegex": "^(CE9|KC4|RI1)[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""

@@ -1,0 +1,9 @@
+# Default: treat files as text and normalize to LF in the repo
+* text=auto eol=lf
+
+# Common binaries (never touch line endings)
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary
+*.zip binary

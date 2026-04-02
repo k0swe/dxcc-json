@@ -137,13 +137,14 @@ FT/X,Kerguelen Islands,AF,68,39,131,N,Y,N,,,,TF,🇹🇫,^FT\/X[A-Z0-9/]*$
 FT/Z,Amsterdam and Saint-Paul Islands,AF,68,39,10,N,Y,N,,,,TF,🇹🇫,^FT\/Z[A-Z0-9/]*$
 FW,Wallis and Futuna Islands,OC,62,32,298,N,Y,N,,,,WF,🇼🇫,^FW[A-Z0-9/]*$
 FY,French Guiana,SA,12,9,63,N,Y,N,,,,GF,🇬🇫,^FY[A-Z0-9/]*$
-"G,GX,M",England,EU,27,14,223,N,Y,N,,,,GB,🏴󠁧󠁢󠁥󠁮󠁧󠁿,^(G|GX|M)[A-Z0-9/]*$
-"GD,GT",Isle of Man,EU,27,14,114,N,Y,N,,,,IM,🇮🇲,^G[DT][A-Z0-9/]*$
-"GI,GN",Northern Ireland,EU,27,14,265,N,Y,N,,,,XI,🏴󠁧󠁢󠁮󠁩󠁲󠁿,^G[IN][A-Z0-9/]*$
-"GJ,GH",Jersey,EU,27,14,122,N,Y,N,,,,JE,🇯🇪,^G[JH][A-Z0-9/]*$
-"GM,GS",Scotland,EU,27,14,279,N,Y,N,,,,GB,🏴󠁧󠁢󠁳󠁣󠁴󠁿,^G[MS][A-Z0-9/]*$
-"GU,GP",Guernsey,EU,27,14,106,N,Y,N,,,,GG,🇬🇬,^G[UP][A-Z0-9/]*$
-"GW,GC",Wales,EU,27,14,294,N,Y,N,,,,GB,🏴󠁧󠁢󠁷󠁬󠁳󠁿,^G[WC][A-Z0-9/]*$
+"G,M",United Kingdom,EU,27,14,223,N,Y,N,,,,GB,🏴󠁧󠁢󠁥󠁮󠁧󠁿,^(G|M)[0-9][A-Z]{1,3}$|^(G)[B|R|][0-9][A-Z0-9]{0,4}[A-Z]$
+"GE,ME,GX,MX,2E",England,EU,27,14,223,N,Y,N,,,,GB,🏴󠁧󠁢󠁥󠁮󠁧󠁿,^(G|M)[EX][0-9][A-Z]{1,3}$|^2E[0-1][A-Z]{1,3}$
+"GD,MD,GT,MT,2D",Isle of Man,EU,27,14,114,N,Y,N,,,,IM,🇮🇲,^(G|M)[DT][0-9][A-Z]{1,3}$|^2D[0-1][A-Z]{1,3}$
+"GI,MI,GN,MN,2I",Northern Ireland,EU,27,14,265,N,Y,N,,,,XI,🏴󠁧󠁢󠁮󠁩󠁲󠁿,^(G|M)[IN][0-9][A-Z]{1,3}$|^2I[0-1][A-Z]{1,3}$
+"GJ,MJ,GH,MH,2J",Jersey,EU,27,14,122,N,Y,N,,,,JE,🇯🇪,^(G|M)[JH][0-9][A-Z]{1,3}$|^2J[0-1][A-Z]{1,3}$
+"GM,MM,GS,MS,2M",Scotland,EU,27,14,279,N,Y,N,,,,GB,🏴󠁧󠁢󠁳󠁣󠁴󠁿,^(G|M)[MS][0-9][A-Z]{1,3}$|^2M[0-1][A-Z]{1,3}$
+"GU,MU,GP,MP,2U",Guernsey,EU,27,14,106,N,Y,N,,,,GG,🇬🇬,^(G|M)[UP][0-9][A-Z]{1,3}$|^2U[0-1][A-Z]{1,3}$
+"GW,MW,GC,MC,2W",Wales,EU,27,14,294,N,Y,N,,,,GB,🏴󠁧󠁢󠁷󠁬󠁳󠁿,^(G|M)[WC][0-9][A-Z]{1,3}$|^2W[0-1][A-Z]{1,3}$
 H4,Solomon Islands,OC,51,28,185,N,Y,N,,,,SB,🇸🇧,^H4[A-Z0-9/]*$
 H40,Temotu Province,OC,51,32,507,N,Y,N,1998-04-01,,,SB,🇸🇧,^H40[A-Z0-9/]*$
 "HA,HG",Hungary,EU,28,15,239,N,Y,N,,,,HU,🇭🇺,^H[AG][A-Z0-9/]*$

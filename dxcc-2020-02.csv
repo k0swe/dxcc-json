@@ -137,7 +137,7 @@ FT/X,Kerguelen Islands,AF,68,39,131,N,Y,N,,,,TF,🇹🇫,^FT\/X[A-Z0-9/]*$
 FT/Z,Amsterdam and Saint-Paul Islands,AF,68,39,10,N,Y,N,,,,TF,🇹🇫,^FT\/Z[A-Z0-9/]*$
 FW,Wallis and Futuna Islands,OC,62,32,298,N,Y,N,,,,WF,🇼🇫,^FW[A-Z0-9/]*$
 FY,French Guiana,SA,12,9,63,N,Y,N,,,,GF,🇬🇫,^FY[A-Z0-9/]*$
-"G,M",United Kingdom,EU,27,14,223,N,Y,N,,,,GB,🏴󠁧󠁢󠁥󠁮󠁧󠁿,^(G|M)[0-9][A-Z]{1,3}$|^(G)[B|R|][0-9][A-Z0-9]{0,4}[A-Z]$
+"G,M,GB,GR",United Kingdom,EU,27,14,223,N,Y,N,,,,GB,🏴󠁧󠁢󠁥󠁮󠁧󠁿,^(G|M)[0-9][A-Z]{1,3}$|^(G)[B|R][0-9][A-Z0-9]{0,4}[A-Z]$
 "GE,ME,GX,MX,2E",England,EU,27,14,223,N,Y,N,,,,GB,🏴󠁧󠁢󠁥󠁮󠁧󠁿,^(G|M)[EX][0-9][A-Z]{1,3}$|^2E[0-1][A-Z]{1,3}$
 "GD,MD,GT,MT,2D",Isle of Man,EU,27,14,114,N,Y,N,,,,IM,🇮🇲,^(G|M)[DT][0-9][A-Z]{1,3}$|^2D[0-1][A-Z]{1,3}$
 "GI,MI,GN,MN,2I",Northern Ireland,EU,27,14,265,N,Y,N,,,,XI,🏴󠁧󠁢󠁮󠁩󠁲󠁿,^(G|M)[IN][0-9][A-Z]{1,3}$|^2I[0-1][A-Z]{1,3}$

@@ -1648,7 +1648,7 @@
       "notes": "",
       "outgoingQslService": true,
       "prefix": "CL,CM,CO,T4",
-      "prefixRegex": "^C[LMO]|T4[A-Z0-9/]*$",
+      "prefixRegex": "^(C[LMO]|T4)[A-Z0-9/]*$",
       "thirdPartyTraffic": true,
       "validEnd": "",
       "validStart": ""
@@ -2247,7 +2247,7 @@
       "notes": "",
       "outgoingQslService": true,
       "prefix": "AY,AZ,LO,LP,LQ,LR,LS,LT,LU,LV,LW",
-      "prefixRegex": "^L[O-W]|AY|AZ[A-Z0-9/]*$",
+      "prefixRegex": "^(L[O-W]|AY|AZ)[A-Z0-9/]*$",
       "thirdPartyTraffic": true,
       "validEnd": "",
       "validStart": ""
@@ -4560,7 +4560,7 @@
       "notes": "",
       "outgoingQslService": true,
       "prefix": "KP4,NP4,WP4",
-      "prefixRegex": "^KP[4]|WP[4]|NP[4][A-Z0-9/]*$",
+      "prefixRegex": "^(KP[4]|WP[4]|NP[4])[A-Z0-9/]*$",
       "thirdPartyTraffic": true,
       "validEnd": "",
       "validStart": ""
@@ -6660,7 +6660,7 @@
       "notes": "",
       "outgoingQslService": true,
       "prefix": "GW,GC,2W",
-      "prefixRegex": "^2W|G[WC][A-Z0-9/]*$",
+      "prefixRegex": "^(2W|G[WC])[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -7101,7 +7101,7 @@
       "notes": "",
       "outgoingQslService": true,
       "prefix": "AT,AU,VU",
-      "prefixRegex": "^AT|AU|VU[A-Z0-9/]*$",
+      "prefixRegex": "^(AT|AU|VU)[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -7494,7 +7494,7 @@
       "notes": "",
       "outgoingQslService": true,
       "prefix": "HZ,7Z",
-      "prefixRegex": "^HZ|7Z[A-Z0-9/]*$",
+      "prefixRegex": "^(HZ|7Z)[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -7656,7 +7656,7 @@
       "notes": "",
       "outgoingQslService": true,
       "prefix": "TA,TB,TC,YM",
-      "prefixRegex": "^T[A-C]|YM[A-Z0-9/]*$",
+      "prefixRegex": "^(T[A-C]|YM)[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""

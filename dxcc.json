@@ -4799,13 +4799,13 @@
       "continent": [
         "NA"
       ],
-      "countryCode": "FR",
+      "countryCode": "MF",
       "cq": [
         8
       ],
       "deleted": false,
       "entityCode": 213,
-      "flag": "🇫🇷",
+      "flag": "🇲🇫",
       "itu": [
         11
       ],
@@ -8309,13 +8309,13 @@
       "continent": [
         "AF"
       ],
-      "countryCode": "FR",
+      "countryCode": "RE",
       "cq": [
         39
       ],
       "deleted": false,
       "entityCode": 453,
-      "flag": "🇫🇷",
+      "flag": "🇷🇪",
       "itu": [
         53
       ],
@@ -9161,13 +9161,13 @@
       "continent": [
         "NA"
       ],
-      "countryCode": "FR",
+      "countryCode": "BL",
       "cq": [
         8
       ],
       "deleted": false,
       "entityCode": 516,
-      "flag": "🇫🇷",
+      "flag": "🇧🇱",
       "itu": [
         11
       ],

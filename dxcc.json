@@ -9318,5 +9318,14 @@
       "validEnd": "",
       "validStart": "2018-01-21"
     }
-  ]
+  ],
+  "metadata": {
+    "sources": [
+      {
+        "edition": "2026-01",
+        "name": "ARRL DXCC Current/Deleted List",
+        "url": "https://www.arrl.org/files/file/DXCC/Current_Deleted.txt"
+      }
+    ]
+  }
 }

@@ -44,4 +44,13 @@ with open('dxcc-2026-01.csv', mode='r', encoding='utf8') as infile:
         dxccList.append(row)
 
 dxccList.sort(key=getEntityCode)
-print(json.dumps({'dxcc': dxccList}, ensure_ascii=False, sort_keys=True))
+print(json.dumps({
+    'metadata': {
+        'sources': [{
+            'name': 'ARRL DXCC Current/Deleted List',
+            'edition': '2026-01',
+            'url': 'https://www.arrl.org/files/file/DXCC/Current_Deleted.txt',
+        }],
+    },
+    'dxcc': dxccList,
+}, ensure_ascii=False, sort_keys=True))

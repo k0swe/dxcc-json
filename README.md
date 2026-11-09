@@ -12,7 +12,10 @@ document was imported into a
 [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1N1eMxi54yTwvizOzVeugWtLxfXGfK92WOavEjnfIdFw/edit#gid=0)
 for formatting and cleansing. I added country codes, unicode flag glyphs and callsign prefix regular
 expressions (regexes), and exported the spreadsheet as the CSV contained in this repository. The DXCC entity fields (name, continent, ITU zone, CQ zone, and current/deleted status) were reconciled to ARRL's January 2026 listing; the manually maintained country codes, flags, and callsign regexes were retained.
-Finally, the included python script generates the JSON file.
+Finally, the included python script generates the JSON file. Its top-level `metadata.sources`
+array identifies the source documents and their editions, so consumers can determine the
+data version without relying on a repository commit or file timestamp. The array permits
+supplementary sources when a field is more accurately maintained outside ARRL's DXCC list.
 
 One simple way to generate a smaller file with just what you need is to use the `jq` utility.
 

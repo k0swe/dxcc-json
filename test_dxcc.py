@@ -1,4 +1,5 @@
 import csv
+import json
 import re
 import unittest
 
@@ -17,6 +18,17 @@ class DxccRegexTests(unittest.TestCase):
                 pattern.fullmatch(callsign),
                 f'{callsign} must match {entity_code} {row["name"]}: {pattern.pattern}',
             )
+
+    def test_generated_json_identifies_its_source_edition(self):
+        with open('dxcc.json', encoding='utf8') as infile:
+            data = json.load(infile)
+        self.assertEqual(data['metadata'], {
+            'sources': [{
+                'name': 'ARRL DXCC Current/Deleted List',
+                'edition': '2026-01',
+                'url': 'https://www.arrl.org/files/file/DXCC/Current_Deleted.txt',
+            }],
+        })
 
     def test_every_listed_prefix_matches_its_regex(self):
         for row in self.rows.values():

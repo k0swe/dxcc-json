@@ -130,7 +130,7 @@ FP,Saint Pierre and Miquelon,NA,09,05,277,N,Y,N,,,,PM,🇵🇲,^FP[A-Z0-9/]*$
 "FR,TO",Réunion,AF,53,39,453,N,Y,N,,,,RE,🇷🇪,^(FR|TO)[A-Z0-9/]*$
 "FS,TO",Saint Martin,NA,11,08,213,N,Y,N,,,,MF,🇲🇫,^(FS|TO)[A-Z0-9/]*$
 "FT/G,TO",Glorioso Islands,AF,53,39,99,N,Y,N,1960-06-25,,,TF,🇹🇫,^(FT\/G|TO)[A-Z0-9/]*$
-"FT/J,E,TO",Juan de Nova and Europa Islands,AF,53,39,124,N,Y,N,1960-06-25,,,TF,🇹🇫,^(FT\/J|E|TO)[A-Z0-9/]*$
+"FT/J,FT/E,TO",Juan de Nova and Europa Islands,AF,53,39,124,N,Y,N,1960-06-25,,,TF,🇹🇫,^(FT\/(?:J|E)|TO)[A-Z0-9/]*$
 "FT/T,TO",Tromelin Island,AF,53,39,276,N,Y,N,,,,TF,🇹🇫,^(FT\/T|TO)[A-Z0-9/]*$
 FT/W,Crozet Islands,AF,68,39,41,N,Y,N,,,,TF,🇹🇫,^FT\/W[A-Z0-9/]*$
 FT/X,Kerguelen Islands,AF,68,39,131,N,Y,N,,,,TF,🇹🇫,^FT\/X[A-Z0-9/]*$

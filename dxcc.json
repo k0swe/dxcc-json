@@ -25,8 +25,8 @@
       "name": "Canada",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "CF,CG,CH,CI,CJ,CK,VA,VB,VC,VD,VE,VF,VG,VO,VY,XJ,XK,XL,XM,XN,XO",
-      "prefixRegex": "^(V[A-GOY]|X[J-KL-O]|C[F-K])[A-Z0-9/]*$",
+      "prefix": "VA,VB,VC,VD,VE,VF,VG,VO,VY",
+      "prefixRegex": "^V[A-GOY][A-Z0-9/]*$",
       "thirdPartyTraffic": true,
       "validEnd": "",
       "validStart": ""
@@ -378,7 +378,7 @@
       "notes": "",
       "outgoingQslService": true,
       "prefix": "UA0,UA8,UA9,UB0,UB8,UB9,UC0,UC8,UC9,UD0,UD8,UD9,UE0,UE8,UE9,UF0,UF8,UF9,UG0,UG8,UG9,UH0,UH8,UH9,UI0,UI8,UI9,RA,RB,RC,RD,RE,RF,RG,RH,RI,RJ,RK,RL,RM,RN,RO,RP,RQ,RR,RS,RT,RU,RV,RW,RX,RY,RZ",
-      "prefixRegex": "^(U[A-I][089]|R[A-Z089])[A-Z089/]*$",
+      "prefixRegex": "^(U[A-I][089]|R[A-Z])[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -489,7 +489,7 @@
       "itu": [
         61
       ],
-      "name": "Howland and Baker Islands",
+      "name": "Baker and Howland Islands",
       "notes": "",
       "outgoingQslService": false,
       "prefix": "KH1",
@@ -1279,7 +1279,7 @@
       "notes": "",
       "outgoingQslService": true,
       "prefix": "UA1,UA2,UA3,UA4,UA5,UA6,UA7,UB1,UB2,UB3,UB4,UB5,UB6,UB7,UC1,UC2,UC3,UC4,UC5,UC6,UC7,UD1,UD2,UD3,UD4,UD5,UD6,UD7,UE1,UE2,UE3,UE4,UE5,UE6,UE7,UF1,UF2,UF3,UF4,UF5,UF6,UF7,UG1,UG2,UG3,UG4,UG5,UG6,UG7,UH1,UH2,UH3,UH4,UH5,UH6,UH7,UI1,UI2,UI3,UI4,UI5,UI6,UI7,RA,RB,RC,RD,RE,RF,RG,RH,RI,RJ,RK,RL,RM,RN,RO,RP,RQ,RR,RS,RT,RU,RV,RW,RX,RY,RZ",
-      "prefixRegex": "^(U[A-I][1-7]|R[A-Z0-7])[A-Z0-7/]*$",
+      "prefixRegex": "^(U[A-I][1-7]|R[A-Z])[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -1647,8 +1647,8 @@
       "name": "Cuba",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "CL,CM,CO,T4",
-      "prefixRegex": "^C[LMO]|T4[A-Z0-9/]*$",
+      "prefix": "CL,CM,CO",
+      "prefixRegex": "^C[LMO][A-Z0-9/]*$",
       "thirdPartyTraffic": true,
       "validEnd": "",
       "validStart": ""
@@ -2246,8 +2246,8 @@
       "name": "Argentina",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "AY,AZ,LO,LP,LQ,LR,LS,LT,LU,LV,LW",
-      "prefixRegex": "^L[O-W]|AY|AZ[A-Z0-9/]*$",
+      "prefix": "LO,LP,LQ,LR,LS,LT,LU,LV,LW",
+      "prefixRegex": "^L[O-W][A-Z0-9/]*$",
       "thirdPartyTraffic": true,
       "validEnd": "",
       "validStart": ""
@@ -2526,8 +2526,8 @@
       "name": "Chile",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "CA,CB,CC,CD,CE,3G,XR",
-      "prefixRegex": "^(?:C[A-D][A-Z0-9/]*|CE[1-8][A-Z0-9/]*|3G[A-Z0-9/]*|X[QR][A-Z1-9/]*)$",
+      "prefix": "CA,CB,CC,CD,CE",
+      "prefixRegex": "^C[A-E][A-Z0-9/]*$",
       "thirdPartyTraffic": true,
       "validEnd": "",
       "validStart": ""
@@ -3081,8 +3081,8 @@
       "name": "South Korea",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "DS,DT,HL,6K,6L,6M,6N,D7,D8",
-      "prefixRegex": "^(DT|DS|HL|6[K-N]|D[78])[A-Z0-9/]*$",
+      "prefix": "HL,6K,6L,6M,6N",
+      "prefixRegex": "^(HL|6[K-N])[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -3383,8 +3383,8 @@
       "name": "Australia",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "VH,VI,VJ,VK,AX",
-      "prefixRegex": "^(V[H-K]|AX)[A-Z0-9/]*$",
+      "prefix": "VK,AX",
+      "prefixRegex": "^(VK|AX)[A-Z0-9/]*$",
       "thirdPartyTraffic": true,
       "validEnd": "",
       "validStart": ""
@@ -3452,8 +3452,8 @@
       "name": "Macquarie Island",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "VK0",
-      "prefixRegex": "^VK0[A-Z0-9/]*$",
+      "prefix": "VK0,VK7",
+      "prefixRegex": "^VK[07][A-Z0-9/]*$",
       "thirdPartyTraffic": true,
       "validEnd": "",
       "validStart": ""
@@ -3495,11 +3495,11 @@
       "itu": [
         54
       ],
-      "name": "West Malaysia",
+      "name": "Malaya",
       "notes": "Contacts made September 16, 1963, and after, count as West Malaysia (9M2,4) or East Malaysia (9M6,8).",
       "outgoingQslService": false,
-      "prefix": "9M2,9M4,9M5",
-      "prefixRegex": "^9M[245][A-Z0-9/]*$",
+      "prefix": "VS2,9M2",
+      "prefixRegex": "^(VS|9M)2[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "1963-09-15",
       "validStart": ""
@@ -3821,8 +3821,8 @@
       "name": "New Zealand",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "ZL,ZM",
-      "prefixRegex": "^Z[L-M][A-Z0-9/]*$",
+      "prefix": "ZK,ZL,ZM",
+      "prefixRegex": "^Z[KL-M][A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -4559,8 +4559,8 @@
       "name": "Puerto Rico",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "KP4,NP4,WP4",
-      "prefixRegex": "^KP[4]|WP[4]|NP[4][A-Z0-9/]*$",
+      "prefix": "KP3,KP4",
+      "prefixRegex": "^KP[34][A-Z0-9/]*$",
       "thirdPartyTraffic": true,
       "validEnd": "",
       "validStart": ""
@@ -4799,13 +4799,13 @@
       "continent": [
         "NA"
       ],
-      "countryCode": "FR",
+      "countryCode": "MF",
       "cq": [
         8
       ],
       "deleted": false,
       "entityCode": 213,
-      "flag": "🇫🇷",
+      "flag": "🇲🇫",
       "itu": [
         11
       ],
@@ -4996,8 +4996,8 @@
       "name": "Denmark",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "OU,OV,OW,OZ,5P,5Q",
-      "prefixRegex": "^(O[U-WZ]|5[P-Q])[A-Z0-9/]*$",
+      "prefix": "OU,OV,OW,OZ",
+      "prefixRegex": "^O[U-WZ][A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -5042,8 +5042,8 @@
       "name": "England",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "G,GX,M,2E",
-      "prefixRegex": "^(G|GX|M|2E)[A-Z0-9/]*$",
+      "prefix": "G,GX,M",
+      "prefixRegex": "^(G|GX|M)[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -5134,8 +5134,8 @@
       "name": "France",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "F,HW,HX,HY,TH,TM,TP,TQ,TV,TW,TX",
-      "prefixRegex": "^(F|HW|HX|HY|TH|TM|TP|TQ|TV|TW|TX)[A-Z0-9/]*$",
+      "prefix": "F",
+      "prefixRegex": "^F[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -5318,8 +5318,8 @@
       "name": "South Georgia Island",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "VP8,LU",
-      "prefixRegex": "^(VP8|LU)[A-Z0-9/]*$",
+      "prefix": "VP0,VP8,LU",
+      "prefixRegex": "^(?:VP0|VP8|LU)[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -5388,8 +5388,8 @@
       "name": "South Orkney Islands",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "VP8,LU",
-      "prefixRegex": "^(VP8|LU)[A-Z0-9/]*$",
+      "prefix": "VP0,VP8,LU",
+      "prefixRegex": "^(?:VP0|VP8|LU)[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -5434,8 +5434,8 @@
       "name": "South Sandwich Islands",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "VP8,LU",
-      "prefixRegex": "^(VP8|LU)[A-Z0-9/]*$",
+      "prefix": "VP0,VP8,LU",
+      "prefixRegex": "^(?:VP0|VP8|LU)[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -5457,8 +5457,8 @@
       "name": "South Shetland Islands",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "VP8,LU,CE9,HF0,4K1",
-      "prefixRegex": "^(VP8|LU|CE9|HF0|4K1)[A-Z0-9/]*$",
+      "prefix": "VP0,VP8,LU,CE9,HF0,4K1",
+      "prefixRegex": "^(?:VP0|VP8|LU|CE9|HF0|4K1)[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -6011,8 +6011,8 @@
       "name": "Northern Ireland",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "GI,GN,2I",
-      "prefixRegex": "^(G[IN][A-Z0-9/]*|2I[A-Z0-9/]*)",
+      "prefix": "GI,GN",
+      "prefixRegex": "^G[IN][A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -6103,8 +6103,8 @@
       "name": "Poland",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "HF,SN,SO,SP,SQ,SR,3Z",
-      "prefixRegex": "^(HF|S[N-R]|3Z)[A-Z0-9/]*$",
+      "prefix": "SN,SO,SP,SQ,SR",
+      "prefixRegex": "^S[N-R][A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -6173,7 +6173,7 @@
       "notes": "",
       "outgoingQslService": true,
       "prefix": "CQ,CR,CS,CT",
-      "prefixRegex": "^(CQ|CR|CS|CT)[A-Z0-9/]*$",
+      "prefixRegex": "^C[QRST][A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -6379,8 +6379,8 @@
       "name": "Spain",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "EA,EB,EC,ED,EE,EF,EG,EH,AM,AN,AO",
-      "prefixRegex": "^(E[A-H]|AM|AN|AO)[A-Z0-9/]*$",
+      "prefix": "EA,EB,EC,ED,EE,EF,EG,EH",
+      "prefixRegex": "^E[A-H][A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -6659,8 +6659,8 @@
       "name": "Wales",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "GW,GC,2W",
-      "prefixRegex": "^2W|G[WC][A-Z0-9/]*$",
+      "prefix": "GW,GC",
+      "prefixRegex": "^G[WC][A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -6705,8 +6705,8 @@
       "name": "Serbia",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "YT,YU,4N",
-      "prefixRegex": "^(Y[TU][A-Z0-9/]*|4N[A-Z0-9/]*)",
+      "prefix": "YT,YU",
+      "prefixRegex": "^Y[TU][A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -7027,8 +7027,8 @@
       "name": "Sri Lanka",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "4S",
-      "prefixRegex": "^4S[A-Z0-9/]*$",
+      "prefix": "4P,4Q,4R,4S",
+      "prefixRegex": "^4[P-S][A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -7100,8 +7100,8 @@
       "name": "India",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "AT,AU,VU",
-      "prefixRegex": "^AT|AU|VU[A-Z0-9/]*$",
+      "prefix": "VU",
+      "prefixRegex": "^VU[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -7124,8 +7124,8 @@
       "name": "Indonesia",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "YB,YC,YD,YE,YF,YG,YH,8A,8B,8C,8D,8E,8F,8G,8H,8I",
-      "prefixRegex": "^(Y[B-H]|8[A-I])[A-Z0-9/]*$",
+      "prefix": "YB,YC,YD,YE,YF,YG,YH",
+      "prefixRegex": "^Y[B-H][A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": "1963-05-01"
@@ -7216,8 +7216,8 @@
       "name": "Japan",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "JA,JB,JC,JD,JE,JF,JG,JH,JI,JJ,JK,JL,JM,JN,JO,JP,JQ,JR,JS,7J,7K,7L,7M,7N,8N",
-      "prefixRegex": "^(J[A-S]|7[J-N]|8N)[A-Z0-9/]*$",
+      "prefix": "JA,JB,JC,JD,JE,JF,JG,JH,JI,JJ,JK,JL,JM,JN,JO,JP,JQ,JR,JS,7J,7K,7L,7M,7N",
+      "prefixRegex": "^(J[A-S]|7[J-N])[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -7424,8 +7424,8 @@
       "name": "Pakistan",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "AP",
-      "prefixRegex": "^AP[A-Z0-9/]*$",
+      "prefix": "AP,AQ,AR,AS",
+      "prefixRegex": "^A[P-S][A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -7493,8 +7493,8 @@
       "name": "Saudi Arabia",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "HZ,7Z",
-      "prefixRegex": "^HZ|7Z[A-Z0-9/]*$",
+      "prefix": "HZ",
+      "prefixRegex": "^HZ[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -7655,8 +7655,8 @@
       "name": "Turkey",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "TA,TB,TC,YM",
-      "prefixRegex": "^T[A-C]|YM[A-Z0-9/]*$",
+      "prefix": "TA,TB,TC",
+      "prefixRegex": "^T[A-C][A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -7701,8 +7701,8 @@
       "name": "Algeria",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "7T,7U,7V,7W,7X,7Y",
-      "prefixRegex": "^7[T-Y][A-Z0-9/]*$",
+      "prefix": "7R,7T,7U,7V,7W,7X,7Y",
+      "prefixRegex": "^7(?:R|[T-Y])[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -7747,8 +7747,8 @@
       "name": "Botswana",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "A2",
-      "prefixRegex": "^A2[A-Z0-9/]*$",
+      "prefix": "A2,8O",
+      "prefixRegex": "^(?:A2|8O)[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -7931,8 +7931,8 @@
       "name": "Democratic Republic of the Congo",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "9Q,9R,9S,9T",
-      "prefixRegex": "^9[Q-T][A-Z0-9/]*$",
+      "prefix": "9O,9P,9Q,9R,9S,9T",
+      "prefixRegex": "^9[O-T][A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -8253,8 +8253,8 @@
       "name": "Morocco",
       "notes": "",
       "outgoingQslService": false,
-      "prefix": "CN,5C,5D,5E",
-      "prefixRegex": "^(CN|5[C-E])[A-Z0-9/]*$",
+      "prefix": "CN,5C,5D,5E,5F,5G",
+      "prefixRegex": "^(?:CN|5[C-G])[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": ""
@@ -8309,13 +8309,13 @@
       "continent": [
         "AF"
       ],
-      "countryCode": "FR",
+      "countryCode": "RE",
       "cq": [
         39
       ],
       "deleted": false,
       "entityCode": 453,
-      "flag": "🇫🇷",
+      "flag": "🇷🇪",
       "itu": [
         53
       ],
@@ -8830,7 +8830,7 @@
       "notes": "New prefix for Bosnia-Herzegovina effective November 17, 2007.  Contacts are valid for this entity effective October 15, 1991.",
       "outgoingQslService": true,
       "prefix": "E7",
-      "prefixRegex": "^(E7[A-Z0-9/]*|T9[A-Z0-9/]*)",
+      "prefixRegex": "^E7[A-Z0-9/]*$",
       "thirdPartyTraffic": true,
       "validEnd": "",
       "validStart": "1991-10-15"
@@ -9161,13 +9161,13 @@
       "continent": [
         "NA"
       ],
-      "countryCode": "FR",
+      "countryCode": "BL",
       "cq": [
         8
       ],
       "deleted": false,
       "entityCode": 516,
-      "flag": "🇫🇷",
+      "flag": "🇧🇱",
       "itu": [
         11
       ],

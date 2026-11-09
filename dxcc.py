@@ -9,7 +9,7 @@ def getEntityCode(e):
 
 
 dxccList = []
-with open('dxcc-2020-02.csv', mode='r', encoding='utf8') as infile:
+with open('dxcc-2026-01.csv', mode='r', encoding='utf8') as infile:
     reader = csv.DictReader(infile)
     for row in reader:
         row['entityCode'] = int(row['entityCode'])

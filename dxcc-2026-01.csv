@@ -19,9 +19,9 @@ prefix,name,continent,itu,cq,entityCode,deleted,outgoingQslService,thirdPartyTra
 "4J,4K",Azerbaijan,AS,29,21,18,N,N,N,,,,AZ,🇦🇿,^4[JK][A-Z0-9/]*$
 4L,Georgia,AS,29,21,75,N,Y,N,,,,GE,🇬🇪,^4L[A-Z0-9/]*$
 4O,Montenegro,EU,28,15,514,N,Y,N,2006-06-28,,,ME,🇲🇪,^4O[A-Z0-9/]*$
-4S,Sri Lanka,AS,41,22,315,N,Y,N,,,,LK,🇱🇰,^4S[A-Z0-9/]*$
+"4P,4Q,4R,4S",Sri Lanka,AS,41,22,315,N,Y,N,,,,LK,🇱🇰,^4[P-S][A-Z0-9/]*$
 4U,International Telecommunication Union Headquarters,EU,28,14,117,N,Y,Y,,,,UN,🇺🇳,^4U[A-Z0-9/]*$
-4U,United Nations Headquarters,NA,8,5,289,N,Y,N,,,,UN,🇺🇳,^4U[A-Z0-9/]*$
+4U,United Nations Headquarters,NA,08,05,289,N,Y,N,,,,UN,🇺🇳,^4U[A-Z0-9/]*$
 4W,Timor-Leste,OC,54,28,511,N,N,N,2000-03-01,,,TL,🇹🇱,^4W[A-Z0-9/]*$
 "4X,4Z",Israel,AS,39,20,336,N,Y,Y,,,,IL,🇮🇱,^4[XZ][A-Z0-9/]*$
 5A,Libya,AF,38,34,436,N,N,N,,,,LY,🇱🇾,^5A[A-Z0-9/]*$
@@ -36,14 +36,14 @@ prefix,name,continent,itu,cq,entityCode,deleted,outgoingQslService,thirdPartyTra
 5X,Uganda,AF,48,37,286,N,Y,N,,,,UG,🇺🇬,^5X[A-Z0-9/]*$
 "5Y,5Z",Kenya,AF,48,37,430,N,Y,N,,,,KE,🇰🇪,^5[YZ][A-Z0-9/]*$
 "6V,6W",Senegal,AF,46,35,456,N,Y,N,1960-06-20,,,SN,🇸🇳,^6[VW][A-Z0-9/]*$
-6Y,Jamaica,NA,11,8,82,N,Y,Y,,,,JM,🇯🇲,^6Y[A-Z0-9/]*$
+6Y,Jamaica,NA,11,08,82,N,Y,Y,,,,JM,🇯🇲,^6Y[A-Z0-9/]*$
 7O,Yemen,AS,39,21,492,N,N,N,1990-05-22,,,YE,🇾🇪,^7O[A-Z0-9/]*$
 7P,Lesotho,AF,57,38,432,N,N,N,,,,LS,🇱🇸,^7P[A-Z0-9/]*$
 7Q,Malawi,AF,53,37,440,N,N,N,,,,MW,🇲🇼,^7Q[A-Z0-9/]*$
-"7T,7U,7V,7W,7X,7Y",Algeria,AF,37,33,400,N,Y,N,,,,DZ,🇩🇿,^7[T-Y][A-Z0-9/]*$
-8P,Barbados,NA,11,8,62,N,Y,N,,,,BB,🇧🇧,^8P[A-Z0-9/]*$
+"7R,7T,7U,7V,7W,7X,7Y",Algeria,AF,37,33,400,N,Y,N,,,,DZ,🇩🇿,^7(?:R|[T-Y])[A-Z0-9/]*$
+8P,Barbados,NA,11,08,62,N,Y,N,,,,BB,🇧🇧,^8P[A-Z0-9/]*$
 8Q,Maldives,"AS,AF",41,22,159,N,N,N,,,,MV,🇲🇻,^8Q[A-Z0-9/]*$
-8R,Guyana,SA,12,9,129,N,Y,Y,,,,GY,🇬🇾,^8R[A-Z0-9/]*$
+8R,Guyana,SA,12,09,129,N,Y,Y,,,,GY,🇬🇾,^8R[A-Z0-9/]*$
 9A,Croatia,EU,28,15,497,N,Y,N,1991-06-26,,,HR,🇭🇷,^9A[A-Z0-9/]*$
 9G,Ghana,AF,46,35,424,N,Y,Y,1957-03-05,,,GH,🇬🇭,^9G[A-Z0-9/]*$
 9H,Malta,EU,28,15,257,N,Y,N,,,,MT,🇲🇹,^9H[A-Z0-9/]*$
@@ -53,19 +53,19 @@ prefix,name,continent,itu,cq,entityCode,deleted,outgoingQslService,thirdPartyTra
 "9M2,9M4",West Malaysia,AS,54,28,299,N,Y,N,1963-09-16,,,MY,🇲🇾,^9M[24][A-Z0-9/]*$
 "9M6,9M8",East Malaysia,OC,54,28,46,N,Y,N,1963-09-16,,,MY,🇲🇾,^9M[68][A-Z0-9/]*$
 9N,Nepal,AS,42,22,369,N,N,N,,,,NP,🇳🇵,^9N[A-Z0-9/]*$
-"9Q,9R,9S,9T",Democratic Republic of the Congo,AF,52,36,414,N,Y,N,,,,CD,🇨🇩,^9[Q-T][A-Z0-9/]*$
+"9O,9P,9Q,9R,9S,9T",Democratic Republic of the Congo,AF,52,36,414,N,Y,N,,,,CD,🇨🇩,^9[O-T][A-Z0-9/]*$
 9U,Burundi,AF,52,36,404,N,N,N,1962-07-01,,,BI,🇧🇮,^9U[A-Z0-9/]*$
 9V,Singapore,AS,54,28,381,N,Y,N,1965-08-08,,"Contacts made from September 16, 1963 to August 8, 1965, count for West Malaysia",SG,🇸🇬,^9V[A-Z0-9/]*$
 9X,Rwanda,AF,52,36,454,N,N,N,1962-07-01,,,RW,🇷🇼,^9X[A-Z0-9/]*$
-"9Y,9Z",Trinidad and Tobago,SA,11,9,90,N,Y,Y,,,,TT,🇹🇹,^9[YZ][A-Z0-9/]*$
-A2,Botswana,AF,57,38,402,N,Y,N,,,,BW,🇧🇼,^A2[A-Z0-9/]*$
+"9Y,9Z",Trinidad and Tobago,SA,11,09,90,N,Y,Y,,,,TT,🇹🇹,^9[YZ][A-Z0-9/]*$
+"A2,8O",Botswana,AF,57,38,402,N,Y,N,,,,BW,🇧🇼,^(?:A2|8O)[A-Z0-9/]*$
 A3,Tonga,OC,62,32,160,N,N,N,,,,TO,🇹🇴,^A3[A-Z0-9/]*$
 A4,Oman,AS,39,21,370,N,Y,N,,,,OM,🇴🇲,^A4[A-Z0-9/]*$
 A5,Bhutan,AS,41,22,306,N,N,N,,,,BT,🇧🇹,^A5[A-Z0-9/]*$
 A6,United Arab Emirates,AS,39,21,391,N,N,N,,,,AE,🇦🇪,^A6[A-Z0-9/]*$
 A7,Qatar,AS,39,21,376,N,Y,N,,,,QA,🇶🇦,^A7[A-Z0-9/]*$
 A9,Bahrain,AS,39,21,304,N,Y,N,,,,BH,🇧🇭,^A9[A-Z0-9/]*$
-AP,Pakistan,AS,41,21,372,N,Y,N,,,,PK,🇵🇰,^AP[A-Z0-9/]*$
+"AP,AQ,AR,AS",Pakistan,AS,41,21,372,N,Y,N,,,,PK,🇵🇰,^A[P-S][A-Z0-9/]*$
 B,China,AS,"33, 42, 43, 44","23,24",318,N,Y,N,,,,CN,🇨🇳,^B[A-Z0-9/]*$
 BS7,Scarborough Shoal,AS,50,27,506,N,N,N,1995-01-01,,,CN,🇨🇳,^BS7[A-Z0-9/]*$
 "BU,BV,BW,BX",Taiwan,AS,44,24,386,N,Y,N,,,,TW,🇹🇼,^B[U-X][A-Z0-9/]*$
@@ -73,22 +73,22 @@ BV9P,Pratas Island,AS,44,24,505,N,N,N,1994-01-01,,,TW,🇹🇼,^BV9P[A-Z0-9/]*$
 C2,Nauru,OC,65,31,157,N,N,N,,,,NR,🇳🇷,^C2[A-Z0-9/]*$
 C3,Andorra,EU,27,14,203,N,Y,N,,,,AD,🇦🇩,^C3[A-Z0-9/]*$
 C5,The Gambia,AF,46,35,422,N,N,Y,,,,GM,🇬🇲,^C5[A-Z0-9/]*$
-C6,Bahamas,NA,11,8,60,N,N,N,,,,BS,🇧🇸,^C6[A-Z0-9/]*$
+C6,Bahamas,NA,11,08,60,N,N,N,,,,BS,🇧🇸,^C6[A-Z0-9/]*$
 "C8,C9",Mozambique,AF,53,37,181,N,Y,N,,,,MZ,🇲🇿,^C[89][A-Z0-9/]*$
 "CA,CB,CC,CD,CE",Chile,SA,"14,16",12,112,N,Y,Y,,,,CL,🇨🇱,^C[A-E][A-Z0-9/]*$
 CE0,Easter Island,SA,63,12,47,N,Y,Y,,,,CL,🇨🇱,^CE0[A-Z0-9/]*$
 CE0,Juan Fernández Islands,SA,14,12,125,N,Y,Y,,,,CL,🇨🇱,^CE0[A-Z0-9/]*$
 CE0,Desventuradas Islands,SA,14,12,217,N,Y,Y,,,,CL,🇨🇱,^CE0[A-Z0-9/]*$
 "CE9,KC4",Antarctica,AN,"67,69,70,71,72,73,74","12, 13, 29, 30, 32, 38, 39",13,N,Y,N,,,QSL via country under whose auspices the particular station is operating.  The availability of a third-party traffic agreement and a QSL Bureau applies to the country under whose auspices the particular station is operating.,AQ,🇦🇶,^(CE9|KC4)[A-Z0-9/]*$
-"CM,CO",Cuba,NA,11,8,70,N,Y,Y,,,,CU,🇨🇺,^C[MO][A-Z0-9/]*$
-CN,Morocco,AF,37,33,446,N,N,N,,,,MA,🇲🇦,^CN[A-Z0-9/]*$
+"CL,CM,CO",Cuba,NA,11,08,70,N,Y,Y,,,,CU,🇨🇺,^C[LMO][A-Z0-9/]*$
+"CN,5C,5D,5E,5F,5G",Morocco,AF,37,33,446,N,N,N,,,,MA,🇲🇦,^(?:CN|5[C-G])[A-Z0-9/]*$
 CP,Bolivia,SA,"12,14",10,104,N,Y,Y,,,,BO,🇧🇴,^CP[A-Z0-9/]*$
-CT,Portugal,EU,37,14,272,N,Y,N,,,,PT,🇵🇹,^CT[A-Z0-9/]*$
+"CQ,CR,CS,CT",Portugal,EU,37,14,272,N,Y,N,,,,PT,🇵🇹,^C[QRST][A-Z0-9/]*$
 CT3,Madeira,AF,36,33,256,N,Y,N,,,,PT,🇵🇹,^CT3[A-Z0-9/]*$
 CU,Azores,EU,36,14,149,N,Y,N,,,,PT,🇵🇹,^CU[A-Z0-9/]*$
 "CV,CW,CX",Uruguay,SA,14,13,144,N,Y,Y,,,,UY,🇺🇾,^C[V-X][A-Z0-9/]*$
-CY0,Sable Island,NA,9,5,211,N,Y,N,,,,CA,🇨🇦,^CY0[A-Z0-9/]*$
-CY9,St. Paul Island,NA,9,5,252,N,Y,N,,,,CA,🇨🇦,^CY9[A-Z0-9/]*$
+CY0,Sable Island,NA,09,05,211,N,Y,N,,,,CA,🇨🇦,^CY0[A-Z0-9/]*$
+CY9,St. Paul Island,NA,09,05,252,N,Y,N,,,,CA,🇨🇦,^CY9[A-Z0-9/]*$
 "D2,D3",Angola,AF,52,36,401,N,N,N,,,,AO,🇦🇴,^D[23][A-Z0-9/]*$
 D4,Cape Verde,AF,46,35,409,N,N,N,,,,CV,🇨🇻,^D4[A-Z0-9/]*$
 D6,Comoros,AF,53,39,411,N,Y,Y,1975-07-06,,,KM,🇰🇲,^D6[A-Z0-9/]*$
@@ -116,19 +116,19 @@ EX,Kyrgyzstan,AS,"30,31",17,135,N,Y,N,,,,KG,🇰🇬,^EX[A-Z0-9/]*$
 EY,Tajikistan,AS,30,17,262,N,Y,N,,,,TJ,🇹🇯,^EY[A-Z0-9/]*$
 EZ,Turkmenistan,AS,30,17,280,N,Y,N,,,,TM,🇹🇲,^EZ[A-Z0-9/]*$
 F,France,EU,27,14,227,N,Y,N,,,,FR,🇫🇷,^F[A-Z0-9/]*$
-"FG,TO",Guadeloupe,NA,11,8,79,N,Y,N,,,,GP,🇬🇵,^(FG|TO)[A-Z0-9/]*$
+"FG,TO",Guadeloupe,NA,11,08,79,N,Y,N,,,,GP,🇬🇵,^(FG|TO)[A-Z0-9/]*$
 "FH,TO",Mayotte,AF,53,39,169,N,Y,N,1975-07-06,,,YT,🇾🇹,^(FH|TO)[A-Z0-9/]*$
-"FJ,TO",Saint Barthélemy,NA,11,8,516,N,Y,N,2007-12-14,,,FR,🇫🇷,^(FJ|TO)[A-Z0-9/]*$
+"FJ,TO",Saint Barthélemy,NA,11,08,516,N,Y,N,2007-12-14,,,FR,🇫🇷,^(FJ|TO)[A-Z0-9/]*$
 "FK,TX",New Caledonia,OC,56,32,162,N,Y,N,,,,NC,🇳🇨,^(FK|TX)[A-Z0-9/]*$
 "FK,TX",Chesterfield Islands,OC,56,30,512,N,N,N,2000-03-23,,,NC,🇳🇨,^(FK|TX)[A-Z0-9/]*$
-"FM,TO",Martinique,NA,11,8,84,N,Y,N,,,,MQ,🇲🇶,^(FM|TO)[A-Z0-9/]*$
+"FM,TO",Martinique,NA,11,08,84,N,Y,N,,,,MQ,🇲🇶,^(FM|TO)[A-Z0-9/]*$
 "FO,TO",Austral Islands,OC,63,32,508,N,Y,N,1998-04-01,,,PF,🇵🇫,^(FO|TO)[A-Z0-9/]*$
-"FO,TX",Clipperton Island,NA,10,7,36,N,Y,N,,,,PF,🇵🇫,^(FO|TX)[A-Z0-9/]*$
+"FO,TX",Clipperton Island,NA,10,07,36,N,Y,N,,,,PF,🇵🇫,^(FO|TX)[A-Z0-9/]*$
 "FO,TX",French Polynesia,OC,63,32,175,N,Y,N,,,,PF,🇵🇫,^(FO|TX)[A-Z0-9/]*$
 "FO,TX",Marquesas Islands,OC,63,31,509,N,Y,N,1998-04-01,,,PF,🇵🇫,^(FO|TX)[A-Z0-9/]*$
-FP,Saint Pierre and Miquelon,NA,9,5,277,N,Y,N,,,,PM,🇵🇲,^FP[A-Z0-9/]*$
+FP,Saint Pierre and Miquelon,NA,09,05,277,N,Y,N,,,,PM,🇵🇲,^FP[A-Z0-9/]*$
 "FR,TO",Réunion,AF,53,39,453,N,Y,N,,,,FR,🇫🇷,^(FR|TO)[A-Z0-9/]*$
-"FS,TO",Saint Martin,NA,11,8,213,N,Y,N,,,,FR,🇫🇷,^(FS|TO)[A-Z0-9/]*$
+"FS,TO",Saint Martin,NA,11,08,213,N,Y,N,,,,FR,🇫🇷,^(FS|TO)[A-Z0-9/]*$
 "FT/G,TO",Glorioso Islands,AF,53,39,99,N,Y,N,1960-06-25,,,TF,🇹🇫,^(FT\/G|TO)[A-Z0-9/]*$
 "FT/J,E,TO",Juan de Nova and Europa Islands,AF,53,39,124,N,Y,N,1960-06-25,,,TF,🇹🇫,^(FT\/J|E|TO)[A-Z0-9/]*$
 "FT/T,TO",Tromelin Island,AF,53,39,276,N,Y,N,,,,TF,🇹🇫,^(FT\/T|TO)[A-Z0-9/]*$
@@ -136,7 +136,7 @@ FT/W,Crozet Islands,AF,68,39,41,N,Y,N,,,,TF,🇹🇫,^FT\/W[A-Z0-9/]*$
 FT/X,Kerguelen Islands,AF,68,39,131,N,Y,N,,,,TF,🇹🇫,^FT\/X[A-Z0-9/]*$
 FT/Z,Amsterdam and Saint-Paul Islands,AF,68,39,10,N,Y,N,,,,TF,🇹🇫,^FT\/Z[A-Z0-9/]*$
 FW,Wallis and Futuna Islands,OC,62,32,298,N,Y,N,,,,WF,🇼🇫,^FW[A-Z0-9/]*$
-FY,French Guiana,SA,12,9,63,N,Y,N,,,,GF,🇬🇫,^FY[A-Z0-9/]*$
+FY,French Guiana,SA,12,09,63,N,Y,N,,,,GF,🇬🇫,^FY[A-Z0-9/]*$
 "G,GX,M",England,EU,27,14,223,N,Y,N,,,,GB,🏴󠁧󠁢󠁥󠁮󠁧󠁿,^(G|GX|M)[A-Z0-9/]*$
 "GD,GT",Isle of Man,EU,27,14,114,N,Y,N,,,,IM,🇮🇲,^G[DT][A-Z0-9/]*$
 "GI,GN",Northern Ireland,EU,27,14,265,N,Y,N,,,,XI,🏴󠁧󠁢󠁮󠁩󠁲󠁿,^G[IN][A-Z0-9/]*$
@@ -151,25 +151,25 @@ HB,Switzerland,EU,28,14,287,N,Y,N,,,,CH,🇨🇭,^HB[A-Z0-9/]*$
 HB0,Liechtenstein,EU,28,14,251,N,Y,N,,,,LI,🇱🇮,^HB0[A-Z0-9/]*$
 "HC,HD",Ecuador,SA,12,10,120,N,Y,Y,,,,EC,🇪🇨,^H[CD][A-Z0-9/]*$
 "HC8,HD8",Galápagos Islands,SA,12,10,71,N,Y,Y,,,,EC,🇪🇨,^H[CD]8[A-Z0-9/]*$
-HH,Haiti,NA,11,8,78,N,N,Y,,,,HT,🇭🇹,^HH[A-Z0-9/]*$
-HI,Dominican Republic,NA,11,8,72,N,Y,Y,,,,DO,🇩🇴,^HI[A-Z0-9/]*$
-"HJ,HK,5J,5K",Colombia,SA,12,9,116,N,Y,Y,,,,CO,🇨🇴,^(H[JK]|5[JK])[A-Z0-9/]*$
-HK0,Malpelo Island,SA,12,9,161,N,Y,Y,,,,CO,🇨🇴,^HK0[A-Z0-9/]*$
-HK0,San Andrés and Providencia,NA,11,7,216,N,Y,Y,,,,CO,🇨🇴,^HK0[A-Z0-9/]*$
+HH,Haiti,NA,11,08,78,N,N,Y,,,,HT,🇭🇹,^HH[A-Z0-9/]*$
+HI,Dominican Republic,NA,11,08,72,N,Y,Y,,,,DO,🇩🇴,^HI[A-Z0-9/]*$
+"HJ,HK,5J,5K",Colombia,SA,12,09,116,N,Y,Y,,,,CO,🇨🇴,^(H[JK]|5[JK])[A-Z0-9/]*$
+HK0,Malpelo Island,SA,12,09,161,N,Y,Y,,,,CO,🇨🇴,^HK0[A-Z0-9/]*$
+HK0,San Andrés and Providencia,NA,11,07,216,N,Y,Y,,,,CO,🇨🇴,^HK0[A-Z0-9/]*$
 "HL,6K,6L,6M,6N",South Korea,AS,44,25,137,N,Y,N,,,,KR,🇰🇷,^(HL|6[K-N])[A-Z0-9/]*$
-"HO,HP",Panama,NA,11,7,88,N,Y,Y,,,,PA,🇵🇦,^H[OP][A-Z0-9/]*$
-"HQ,HR",Honduras,NA,11,7,80,N,Y,Y,,,,HN,🇭🇳,^H[QR][A-Z0-9/]*$
+"HO,HP",Panama,NA,11,07,88,N,Y,Y,,,,PA,🇵🇦,^H[OP][A-Z0-9/]*$
+"HQ,HR",Honduras,NA,11,07,80,N,Y,Y,,,,HN,🇭🇳,^H[QR][A-Z0-9/]*$
 "HS,E2",Thailand,AS,49,26,387,N,Y,N,,,,TH,🇹🇭,^(HS|E2)[A-Z0-9/]*$
 HV,Vatican,EU,28,15,295,N,N,N,,,,VA,🇻🇦,^HV[A-Z0-9/]*$
 HZ,Saudi Arabia,AS,39,21,378,N,Y,N,,,,SA,🇸🇦,^HZ[A-Z0-9/]*$
 I,Italy,EU,28,"15,33",248,N,Y,N,,,,IT,🇮🇹,^I[A-Z0-9/]*$
 "IS0,IM0",Sardinia,EU,28,15,225,N,Y,N,,,,IT,🇮🇹,^I[SM]0[A-Z0-9/]*$
 J2,Djibouti,AF,48,37,382,N,Y,N,,,,DJ,🇩🇯,^J2[A-Z0-9/]*$
-J3,Grenada,NA,11,8,77,N,Y,Y,,,,GD,🇬🇩,^J3[A-Z0-9/]*$
+J3,Grenada,NA,11,08,77,N,Y,Y,,,,GD,🇬🇩,^J3[A-Z0-9/]*$
 J5,Guinea-Bissau,AF,46,35,109,N,N,N,,,,GW,🇬🇼,^J5[A-Z0-9/]*$
-J6,Saint Lucia,NA,11,8,97,N,Y,Y,,,,LC,🇱🇨,^J6[A-Z0-9/]*$
-J7,Dominica,NA,11,8,95,N,Y,Y,,,,DM,🇩🇲,^J7[A-Z0-9/]*$
-J8,Saint Vincent and the Grenadines,NA,11,8,98,N,N,Y,,,,VC,🇻🇨,^J8[A-Z0-9/]*$
+J6,Saint Lucia,NA,11,08,97,N,Y,Y,,,,LC,🇱🇨,^J6[A-Z0-9/]*$
+J7,Dominica,NA,11,08,95,N,Y,Y,,,,DM,🇩🇲,^J7[A-Z0-9/]*$
+J8,Saint Vincent and the Grenadines,NA,11,08,98,N,N,Y,,,,VC,🇻🇨,^J8[A-Z0-9/]*$
 "JA,JB,JC,JD,JE,JF,JG,JH,JI,JJ,JK,JL,JM,JN,JO,JP,JQ,JR,JS,7J,7K,7L,7M,7N",Japan,AS,45,25,339,N,Y,N,,,,JP,🇯🇵,^(J[A-S]|7[J-N])[A-Z0-9/]*$
 JD1,Minami-Tori-shima,OC,90,27,177,N,Y,N,,,Formerly Marcus Island,JP,🇯🇵,^JD1[A-Z0-9/]*$
 JD1,Ogasawara Islands,AS,45,27,192,N,Y,N,,,Formerly Bonin and Volcano Islands,JP,🇯🇵,^JD1[A-Z0-9/]*$
@@ -178,9 +178,9 @@ JW,Svalbard,EU,18,40,259,N,Y,N,,,,SJ,🇸🇯,^JW[A-Z0-9/]*$
 JX,Jan Mayen,EU,18,40,118,N,Y,N,,,,SJ,🇸🇯,^JX[A-Z0-9/]*$
 JY,Jordan,AS,39,20,342,N,Y,Y,,,,JO,🇯🇴,^JY[A-Z0-9/]*$
 "K,W,N,AA,AB,AC,AD,AE,AF,AG,AH,AI,AJ,AK",United States of America,NA,"6,7,8","3,4,5",291,N,N,Y,,,,US,🇺🇸,^(K|W|N|A[A-K])[A-Z0-9/]*$
-KG4,Guantanamo Bay,NA,11,8,105,N,N,Y,,,,US,🇺🇸,^KG4[A-Z0-9/]*$
+KG4,Guantanamo Bay,NA,11,08,105,N,N,Y,,,,US,🇺🇸,^KG4[A-Z0-9/]*$
 KH0,Mariana Islands,OC,64,27,166,N,N,Y,,,,MP,🇲🇵,^KH0[A-Z0-9/]*$
-KH1,Howland and Baker Islands,OC,61,31,20,N,N,Y,,,,UM,🇺🇲,^KH1[A-Z0-9/]*$
+KH1,Baker and Howland Islands,OC,61,31,20,N,N,Y,,,,UM,🇺🇲,^KH1[A-Z0-9/]*$
 KH2,Guam,OC,64,27,103,N,Y,Y,,,,GU,🇬🇺,^KH2[A-Z0-9/]*$
 KH3,Johnston Atoll,OC,61,31,123,N,Y,Y,,,,US,🇺🇸,^KH3[A-Z0-9/]*$
 KH4,Midway Atoll,OC,61,31,174,N,N,Y,,,,US,🇺🇸,^KH4[A-Z0-9/]*$
@@ -190,11 +190,11 @@ KH7K,Kure Atoll,OC,61,31,138,N,N,Y,,,,US,🇺🇸,^KH7K[A-Z0-9/]*$
 KH8,American Samoa,OC,62,32,9,N,Y,Y,,,,AS,🇦🇸,^KH8[A-Z0-9/]*$
 KH8,Swains Island,OC,62,32,515,N,Y,Y,2006-07-22,,,AS,🇦🇸,^KH8[A-Z0-9/]*$
 KH9,Wake Island,OC,65,31,297,N,N,Y,,,,US,🇺🇸,^KH9[A-Z0-9/]*$
-"KL,AL,NL,WL",Alaska,NA,"1,2",1,6,N,Y,Y,,,,US,🇺🇸,^[KANW]L[A-Z0-9/]*$
-KP1,Navassa Island,NA,11,8,182,N,N,Y,,,,US,🇺🇸,^KP1[A-Z0-9/]*$
-KP2,US Virgin Islands,NA,11,8,285,N,Y,Y,,,,VI,🇻🇮,^KP2[A-Z0-9/]*$
-"KP3,KP4",Puerto Rico,NA,11,8,202,N,Y,Y,,,,PR,🇵🇷,^KP[34][A-Z0-9/]*$
-KP5,Desecheo Island,NA,11,8,43,N,N,Y,1979-03-01,,,PR,🇵🇷,^KP5[A-Z0-9/]*$
+"KL,AL,NL,WL",Alaska,NA,"01,02",01,6,N,Y,Y,,,,US,🇺🇸,^[KANW]L[A-Z0-9/]*$
+KP1,Navassa Island,NA,11,08,182,N,N,Y,,,,US,🇺🇸,^KP1[A-Z0-9/]*$
+KP2,US Virgin Islands,NA,11,08,285,N,Y,Y,,,,VI,🇻🇮,^KP2[A-Z0-9/]*$
+"KP3,KP4",Puerto Rico,NA,11,08,202,N,Y,Y,,,,PR,🇵🇷,^KP[34][A-Z0-9/]*$
+KP5,Desecheo Island,NA,11,08,43,N,N,Y,1979-03-01,,,PR,🇵🇷,^KP5[A-Z0-9/]*$
 "LA,LB,LC,LD,LE,LF,LG,LH,LI,LJ,LK,LL,LM,LN",Norway,EU,18,14,266,N,Y,N,,,,NO,🇳🇴,^L[A-N][A-Z0-9/]*$
 "LO,LP,LQ,LR,LS,LT,LU,LV,LW",Argentina,SA,"14,16",13,100,N,Y,Y,,,,AR,🇦🇷,^L[O-W][A-Z0-9/]*$
 LX,Luxembourg,EU,27,14,254,N,Y,N,,,,LU,🇱🇺,^LX[A-Z0-9/]*$
@@ -210,21 +210,21 @@ OJ0,Märket Island,EU,18,15,167,N,Y,N,,,,ZZ,,^OJ0[A-Z0-9/]*$
 OM,Slovakia,EU,28,15,504,N,Y,N,1993-01-01,,,SK,🇸🇰,^OM[A-Z0-9/]*$
 "ON,OO,OP,OQ,OR,OS,OT",Belgium,EU,27,14,209,N,Y,N,,,,BE,🇧🇪,^O[N-T][A-Z0-9/]*$
 "OU,OV,OW,OZ",Denmark,EU,18,14,221,N,Y,N,,,,DK,🇩🇰,^O[U-WZ][A-Z0-9/]*$
-OX,Greenland,NA,"5,75",40,237,N,Y,N,,,,GL,🇬🇱,^OX[A-Z0-9/]*$
+OX,Greenland,NA,"05,75",40,237,N,Y,N,,,,GL,🇬🇱,^OX[A-Z0-9/]*$
 OY,Faroe Islands,EU,18,14,222,N,Y,N,,,,FO,🇫🇴,^OY[A-Z0-9/]*$
 P2,Papua New Guinea,OC,51,28,163,N,N,N,1975-09-16,,,PG,🇵🇬,^P2[A-Z0-9/]*$
-P4,Aruba,SA,11,9,91,N,Y,N,1986-01-01,,,AW,🇦🇼,^P4[A-Z0-9/]*$
+P4,Aruba,SA,11,09,91,N,Y,N,1986-01-01,,,AW,🇦🇼,^P4[A-Z0-9/]*$
 P5,Democratic People's Republic of Korea,AS,44,25,344,N,N,N,1995-05-14,,,KP,🇰🇵,^P5[A-Z0-9/]*$
 "PA,PB,PC,PD,PE,PF,PG,PH,PI",Netherlands,EU,27,14,263,N,Y,N,,,,NL,🇳🇱,^P[A-I][A-Z0-9/]*$
-PJ2,Curaçao,SA,11,9,517,N,N,N,2010-10-10,,,CW,🇨🇼,^PJ2[A-Z0-9/]*$
-PJ4,Bonaire,SA,11,9,520,N,N,N,2010-10-10,,,BQ,🇧🇶,^PJ4[A-Z0-9/]*$
-"PJ5,PJ6",Saba and Sint Eustatius,NA,11,8,519,N,N,N,2010-10-10,,,BQ,🇧🇶,^PJ[56][A-Z0-9/]*$
-PJ7,Sint Maarten,NA,11,8,518,N,N,N,2010-10-10,,,SX,🇸🇽,^PJ7[A-Z0-9/]*$
+PJ2,Curaçao,SA,11,09,517,N,N,N,2010-10-10,,,CW,🇨🇼,^PJ2[A-Z0-9/]*$
+PJ4,Bonaire,SA,11,09,520,N,N,N,2010-10-10,,,BQ,🇧🇶,^PJ4[A-Z0-9/]*$
+"PJ5,PJ6",Saba and Sint Eustatius,NA,11,08,519,N,N,N,2010-10-10,,,BQ,🇧🇶,^PJ[56][A-Z0-9/]*$
+PJ7,Sint Maarten,NA,11,08,518,N,N,N,2010-10-10,,,SX,🇸🇽,^PJ7[A-Z0-9/]*$
 "PP,PQ,PR,PS,PT,PU,PV,PW,PX,PY,ZV,ZW,ZX,ZY,ZZ",Brazil,SA,"12, 13, 15",11,108,N,Y,Y,,,,BR,🇧🇷,^(P[P-Y]|Z[V-Z])[A-Z0-9/]*$
 "PP0F,PQ0F,PR0F,PS0F,PT0F,PU0F,PV0F,PW0F,PX0F,PY0F",Fernando de Noronha,SA,13,11,56,N,Y,Y,,,,BR,🇧🇷,^P[P-Y]0F[A-Z0-9/]*$
 "PP0S,PQ0S,PR0S,PS0S,PT0S,PU0S,PV0S,PW0S,PX0S,PY0S",Saint Peter and Saint Paul Archipelago,SA,13,11,253,N,Y,Y,,,,BR,🇧🇷,^P[P-Y]0S[A-Z0-9/]*$
 "PP0T,PQ0T,PR0T,PS0T,PT0T,PU0T,PV0T,PW0T,PX0T,PY0T",Trindade and Martin Vaz,SA,15,11,273,N,Y,Y,,,,BR,🇧🇷,^P[P-Y]0T[A-Z0-9/]*$
-PZ,Suriname,SA,12,9,140,N,N,N,,,,SR,🇸🇷,^PZ[A-Z0-9/]*$
+PZ,Suriname,SA,12,09,140,N,N,N,,,,SR,🇸🇷,^PZ[A-Z0-9/]*$
 R1/F,Franz Josef Land,EU,75,40,61,N,Y,N,,,,RU,🇷🇺,^R1/F[A-Z0-9/]*$
 S0,Western Sahara,AF,46,33,302,N,N,N,,,"Unofficial prefix; Contacts with Rio de Oro (Spanish Sahara), EA9, also count for this entity.",EH,🇪🇭,^S0[A-Z0-9/]*$
 S2,Bangladesh,AS,41,22,305,N,Y,N,,,,BD,🇧🇩,^S2[A-Z0-9/]*$
@@ -249,9 +249,9 @@ T7,San Marino,EU,28,15,278,N,Y,N,,,,SM,🇸🇲,^T7[A-Z0-9/]*$
 T8,Palau,OC,64,27,22,N,N,N,1994-01-01,,"KC6 prior to January 1, 1994",PW,🇵🇼,^T8[A-Z0-9/]*$
 "TA,TB,TC",Turkey,"EU,AS",39,20,390,N,Y,N,,,,TR,🇹🇷,^T[A-C][A-Z0-9/]*$
 TF,Iceland,EU,17,40,242,N,Y,N,,,,IS,🇮🇸,^TF[A-Z0-9/]*$
-"TG,TD",Guatemala,NA,12,7,76,N,Y,Y,,,,GT,🇬🇹,^T[GD][A-Z0-9/]*$
-"TI,TE",Costa Rica,NA,11,7,308,N,Y,Y,,,,CR,🇨🇷,^T[IE][A-Z0-9/]*$
-TI9,Cocos Island,NA,12,7,37,N,Y,Y,,,,CR,🇨🇷,^TI9[A-Z0-9/]*$
+"TG,TD",Guatemala,NA,12,07,76,N,Y,Y,,,,GT,🇬🇹,^T[GD][A-Z0-9/]*$
+"TI,TE",Costa Rica,NA,11,07,308,N,Y,Y,,,,CR,🇨🇷,^T[IE][A-Z0-9/]*$
+TI9,Cocos Island,NA,12,07,37,N,Y,Y,,,,CR,🇨🇷,^TI9[A-Z0-9/]*$
 TJ,Cameroon,AF,47,36,406,N,N,N,,,,CM,🇨🇲,^TJ[A-Z0-9/]*$
 TK,Corsica,EU,28,15,214,N,Y,N,,,,FR,🇫🇷,^TK[A-Z0-9/]*$
 TL,Central African Republic,AF,47,36,408,N,N,N,1960-08-13,,,CF,🇨🇫,^TL[A-Z0-9/]*$
@@ -267,9 +267,9 @@ TZ,Mali,AF,46,35,442,N,Y,N,1960-06-20,,,ML,🇲🇱,^TZ[A-Z0-9/]*$
 "UJ,UK,UL,UM",Uzbekistan,AS,30,17,292,N,N,N,,,,UZ,🇺🇿,^U[J-M][A-Z0-9/]*$
 "UN,UO,UP,UQ",Kazakhstan,AS,"29,30,31",17,130,N,Y,N,,,,KZ,🇰🇿,^U[N-Q][A-Z0-9/]*$
 "UR,US,UT,UU,UV,UW,UX,UY,UZ,EM,EN,EO",Ukraine,EU,29,16,288,N,Y,N,,,,UA,🇺🇦,^(U[R-Z]|E[M-O])[A-Z0-9/]*$
-V2,Antigua and Barbuda,NA,11,8,94,N,Y,Y,,,,AG,🇦🇬,^V2[A-Z0-9/]*$
-V3,Belize,NA,11,7,66,N,N,Y,,,,BZ,🇧🇿,^V3[A-Z0-9/]*$
-V4,Saint Kitts and Nevis,NA,11,8,249,N,N,Y,,,"For DXCC credit for contacts made May 31, 1958, and before, see page 97, June 1958 QST",KN,🇰🇳,^V4[A-Z0-9/]*$
+V2,Antigua and Barbuda,NA,11,08,94,N,Y,Y,,,,AG,🇦🇬,^V2[A-Z0-9/]*$
+V3,Belize,NA,11,07,66,N,N,Y,,,,BZ,🇧🇿,^V3[A-Z0-9/]*$
+V4,Saint Kitts and Nevis,NA,11,08,249,N,N,Y,,,"For DXCC credit for contacts made May 31, 1958, and before, see page 97, June 1958 QST",KN,🇰🇳,^V4[A-Z0-9/]*$
 V5,Namibia,AF,57,38,464,N,Y,N,,,,NA,🇳🇦,^V5[A-Z0-9/]*$
 V6,Micronesia,OC,65,27,173,N,N,N,,,"Includes Yap Islands January 1, 1981, and after.",FM,🇫🇲,^V6[A-Z0-9/]*$
 V7,Marshall Islands,OC,65,31,168,N,Y,Y,,,,MH,🇲🇭,^V7[A-Z0-9/]*$
@@ -277,32 +277,32 @@ V8,Brunei Darussalam,OC,54,28,345,N,Y,N,,,,BN,🇧🇳,^V8[A-Z0-9/]*$
 "VA,VB,VC,VD,VE,VF,VG,VO,VY",Canada,NA,"2, 3, 4, 9, 75","1,2,3,4,5",1,N,Y,Y,,,,CA,🇨🇦,^V[A-GOY][A-Z0-9/]*$
 "VK,AX",Australia,OC,"55, 58, 59","29,30",150,N,Y,Y,,,,AU,🇦🇺,^(VK|AX)[A-Z0-9/]*$
 VK0,Heard Island and McDonald Islands,AF,68,39,111,N,Y,Y,,,,HM,🇭🇲,^VK0[A-Z0-9/]*$
-VK0,Macquarie Island,OC,60,30,153,N,Y,Y,,,,AU,🇦🇺,^VK0[A-Z0-9/]*$
+"VK0,VK7",Macquarie Island,OC,60,30,153,N,Y,Y,,,,AU,🇦🇺,^VK[07][A-Z0-9/]*$
 VK9C,Cocos (Keeling) Islands,OC,54,29,38,N,Y,Y,,,,CC,🇨🇨,^VK9C[A-Z0-9/]*$
 VK9L,Lord Howe Island,OC,60,30,147,N,Y,Y,,,,AU,🇦🇺,^VK9L[A-Z0-9/]*$
 VK9M,Mellish Reef,OC,56,30,171,N,Y,Y,,,,AU,🇦🇺,^VK9M[A-Z0-9/]*$
 VK9N,Norfolk Island,OC,60,32,189,N,Y,N,,,,AU,🇦🇺,^VK9N[A-Z0-9/]*$
 VK9W,Willis Island,OC,55,30,303,N,Y,Y,,,,AU,🇦🇺,^VK9W[A-Z0-9/]*$
 VK9X,Christmas Island,OC,54,29,35,N,Y,Y,,,,CX,🇨🇽,^VK9X[A-Z0-9/]*$
-VP2E,Anguilla,NA,11,8,12,N,N,N,,,"For DXCC credit for contacts made May 31, 1958, and before, see page 97, June 1958 QST",AI,🇦🇮,^VP2E[A-Z0-9/]*$
-VP2M,Montserrat,NA,11,8,96,N,N,N,,,"For DXCC credit for contacts made May 31, 1958, and before, see page 97, June 1958 QST",MS,🇲🇸,^VP2M[A-Z0-9/]*$
-VP2V,British Virgin Is.,NA,11,8,65,N,Y,N,,,"For DXCC credit for contacts made May 31, 1958, and before, see page 97, June 1958 QST",VG,🇻🇬,^VP2V[A-Z0-9/]*$
-VP5,Turks and Caicos Islands,NA,11,8,89,N,Y,N,,,,TC,🇹🇨,^VP5[A-Z0-9/]*$
+VP2E,Anguilla,NA,11,08,12,N,N,N,,,"For DXCC credit for contacts made May 31, 1958, and before, see page 97, June 1958 QST",AI,🇦🇮,^VP2E[A-Z0-9/]*$
+VP2M,Montserrat,NA,11,08,96,N,N,N,,,"For DXCC credit for contacts made May 31, 1958, and before, see page 97, June 1958 QST",MS,🇲🇸,^VP2M[A-Z0-9/]*$
+VP2V,British Virgin Is.,NA,11,08,65,N,Y,N,,,"For DXCC credit for contacts made May 31, 1958, and before, see page 97, June 1958 QST",VG,🇻🇬,^VP2V[A-Z0-9/]*$
+VP5,Turks and Caicos Islands,NA,11,08,89,N,Y,N,,,,TC,🇹🇨,^VP5[A-Z0-9/]*$
 VP6,Pitcairn Islands,OC,63,32,172,N,Y,Y,,,,PN,🇵🇳,^VP6[A-Z0-9/]*$
 VP6,Ducie Island,OC,63,32,513,N,Y,N,2001-11-16,,,PN,🇵🇳,^VP6[A-Z0-9/]*$
 VP8,Falkland Islands,SA,16,13,141,N,Y,N,,,,FK,🇫🇰,^VP8[A-Z0-9/]*$
-"VP8,LU",South Georgia Island,SA,73,13,235,N,Y,N,,,,GB,🇬🇧,^(VP8|LU)[A-Z0-9/]*$
-"VP8,LU",South Orkney Islands,SA,73,13,238,N,Y,N,,,,AQ,🇦🇶,^(VP8|LU)[A-Z0-9/]*$
-"VP8,LU",South Sandwich Islands,SA,73,13,240,N,Y,N,,,,GB,🇬🇧,^(VP8|LU)[A-Z0-9/]*$
-"VP8,LU,CE9,HF0,4K1",South Shetland Islands,SA,73,13,241,N,Y,N,,,,AQ,🇦🇶,^(VP8|LU|CE9|HF0|4K1)[A-Z0-9/]*$
-VP9,Bermuda,NA,11,5,64,N,Y,N,,,,BM,🇧🇲,^VP9[A-Z0-9/]*$
+"VP0,VP8,LU",South Georgia Island,SA,73,13,235,N,Y,N,,,,GB,🇬🇧,^(?:VP0|VP8|LU)[A-Z0-9/]*$
+"VP0,VP8,LU",South Orkney Islands,SA,73,13,238,N,Y,N,,,,AQ,🇦🇶,^(?:VP0|VP8|LU)[A-Z0-9/]*$
+"VP0,VP8,LU",South Sandwich Islands,SA,73,13,240,N,Y,N,,,,GB,🇬🇧,^(?:VP0|VP8|LU)[A-Z0-9/]*$
+"VP0,VP8,LU,CE9,HF0,4K1",South Shetland Islands,SA,73,13,241,N,Y,N,,,,AQ,🇦🇶,^(?:VP0|VP8|LU|CE9|HF0|4K1)[A-Z0-9/]*$
+VP9,Bermuda,NA,11,05,64,N,Y,N,,,,BM,🇧🇲,^VP9[A-Z0-9/]*$
 VQ9,Chagos Islands,AF,41,39,33,N,Y,N,,,,IO,🇮🇴,^VQ9[A-Z0-9/]*$
 VR,Hong Kong,AS,44,24,321,N,Y,N,,,,HK,🇭🇰,^VR[A-Z0-9/]*$
 VU,India,AS,41,22,324,N,Y,N,,,,IN,🇮🇳,^VU[A-Z0-9/]*$
 VU4,Andaman and Nicobar Islands,AS,49,26,11,N,Y,N,,,,IN,🇮🇳,^VU4[A-Z0-9/]*$
 VU7,Lakshadweep,AS,41,22,142,N,Y,N,,,,IN,🇮🇳,^VU7[A-Z0-9/]*$
-"XA,XB,XC,XD,XE,XF,XG,XH,XI",Mexico,NA,10,6,50,N,Y,Y,,,,MX,🇲🇽,^X[A-I][A-Z0-9/]*$
-"XA4,XB4,XC4,XD4,XE4,XF4,XG4,XH4,XI4",Revillagigedo Islands,NA,10,6,204,N,Y,Y,,,,MX,🇲🇽,^X[A-I]4[A-Z0-9/]*$
+"XA,XB,XC,XD,XE,XF,XG,XH,XI",Mexico,NA,10,06,50,N,Y,Y,,,,MX,🇲🇽,^X[A-I][A-Z0-9/]*$
+"XA4,XB4,XC4,XD4,XE4,XF4,XG4,XH4,XI4",Revillagigedo Islands,NA,10,06,204,N,Y,Y,,,,MX,🇲🇽,^X[A-I]4[A-Z0-9/]*$
 XT,Burkina Faso,AF,46,35,480,N,Y,N,1960-08-16,,,BF,🇧🇫,^XT[A-Z0-9/]*$
 XU,Cambodia,AS,49,26,312,N,N,N,,,,KH,🇰🇭,^XU[A-Z0-9/]*$
 XW,Laos,AS,49,26,143,N,N,N,,,,LA,🇱🇦,^XW[A-Z0-9/]*$
@@ -314,12 +314,12 @@ YI,Iraq,AS,39,21,333,N,Y,N,,,,IQ,🇮🇶,^YI[A-Z0-9/]*$
 YJ,Vanuatu,OC,56,32,158,N,Y,N,,,,VU,🇻🇺,^YJ[A-Z0-9/]*$
 YK,Syria,AS,39,20,384,N,Y,N,,,,SY,🇸🇾,^YK[A-Z0-9/]*$
 YL,Latvia,EU,29,15,145,N,Y,N,,,,LV,🇱🇻,^YL[A-Z0-9/]*$
-"YN,H6,H7,HT",Nicaragua,NA,11,7,86,N,Y,Y,,,,NI,🇳🇮,^(YN|H[67T])[A-Z0-9/]*$
+"YN,H6,H7,HT",Nicaragua,NA,11,07,86,N,Y,Y,,,,NI,🇳🇮,^(YN|H[67T])[A-Z0-9/]*$
 "YO,YP,YQ,YR",Romania,EU,28,20,275,N,Y,N,,,,RO,🇷🇴,^Y[O-R][A-Z0-9/]*$
-"YS,HU",El Salvador,NA,11,7,74,N,Y,Y,,,,SV,🇸🇻,^(YS|HU)[A-Z0-9/]*$
+"YS,HU",El Salvador,NA,11,07,74,N,Y,Y,,,,SV,🇸🇻,^(YS|HU)[A-Z0-9/]*$
 "YT,YU",Serbia,EU,28,15,296,N,Y,N,,,,RS,🇷🇸,^Y[TU][A-Z0-9/]*$
-"YV,YW,YX,YY,4M",Venezuela,SA,12,9,148,N,Y,Y,,,,VE,🇻🇪,^(Y[V-Y]|4M)[A-Z0-9/]*$
-YV0,Isla de Aves,NA,11,8,17,N,Y,Y,,,,VE,🇻🇪,^YV0[A-Z0-9/]*$
+"YV,YW,YX,YY,4M",Venezuela,SA,12,09,148,N,Y,Y,,,,VE,🇻🇪,^(Y[V-Y]|4M)[A-Z0-9/]*$
+YV0,Isla de Aves,NA,11,08,17,N,Y,Y,,,,VE,🇻🇪,^YV0[A-Z0-9/]*$
 Z2,Zimbabwe,AF,53,38,452,N,N,N,,,,ZW,🇿🇼,^Z2[A-Z0-9/]*$
 Z3,North Macedonia,EU,28,15,502,N,Y,N,1991-09-08,,,MK,🇲🇰,^Z3[A-Z0-9/]*$
 Z6,Kosovo,EU,28,15,522,N,N,N,2018-01-21,,Unofficial prefix,XK,🇽🇰,^Z6[A-Z0-9/]*$
@@ -330,9 +330,9 @@ ZC4,Sovereign Base Areas of Akrotiri and Dhekelia,AS,39,20,283,N,Y,N,1960-08-16,
 ZD7,St. Helena,AF,66,36,250,N,Y,N,,,,SH,🇸🇭,^ZD7[A-Z0-9/]*$
 ZD8,Ascension Island,AF,66,36,205,N,Y,N,,,,SH,🇸🇭,^ZD8[A-Z0-9/]*$
 ZD9,Tristan da Cunha and Gough Islands,AF,66,38,274,N,N,N,,,,SH,🇸🇭,^ZD9[A-Z0-9/]*$
-ZF,Cayman Islands,NA,11,8,69,N,Y,N,,,,KY,🇰🇾,^ZF[A-Z0-9/]*$
+ZF,Cayman Islands,NA,11,08,69,N,Y,N,,,,KY,🇰🇾,^ZF[A-Z0-9/]*$
 ZK3,Tokelau,OC,62,31,270,N,Y,N,,,,TK,🇹🇰,^ZK3[A-Z0-9/]*$
-"ZL,ZM",New Zealand,OC,60,32,170,N,Y,N,,,,NZ,🇳🇿,^Z[L-M][A-Z0-9/]*$
+"ZK,ZL,ZM",New Zealand,OC,60,32,170,N,Y,N,,,,NZ,🇳🇿,^Z[KL-M][A-Z0-9/]*$
 ZL7,Chatham Islands,OC,60,32,34,N,Y,N,,,,NZ,🇳🇿,^ZL7[A-Z0-9/]*$
 ZL8,Kermadec Islands,OC,60,32,133,N,Y,N,,,,NZ,🇳🇿,^ZL8[A-Z0-9/]*$
 ZL9,New Zealand Subantarctic Islands,OC,60,32,16,N,Y,N,,,,NZ,🇳🇿,^ZL9[A-Z0-9/]*$
@@ -364,20 +364,20 @@ FF,French West Africa,AF,46,35,59,Y,N,N,,1960-08-06,,ZZ,,^FF[A-Z0-9/]*$
 FI8,French Indo-China,AS,49,26,58,Y,N,N,,1950-12-20,,ZZ,,^FI8[A-Z0-9/]*$
 FN8,French India,AS,41,22,67,Y,N,N,,1954-10-31,,ZZ,,^FN8[A-Z0-9/]*$
 FQ8,French Equatorial Africa,AF,"47,52",36,57,Y,N,N,,1960-08-16,,ZZ,,^FQ8[A-Z0-9/]*$
-HK0,Bajo Nuevo,NA,11,8,19,Y,N,N,,1981-09-16,"Contacts made September 17, 1981, and after, count as San Andres (HK0).",ZZ,,^HK0[A-Z0-9/]*$
-"HK0,KP3,KS4",Serrana Bank & Roncador Cay,NA,11,7,228,Y,N,N,,1981-09-16,"Contacts made September 17, 1981, and after, count as San Andres (HK0).",ZZ,,^(HK0|KP3|KS4)[A-Z0-9/]*$
+HK0,Bajo Nuevo,NA,11,08,19,Y,N,N,,1981-09-16,"Contacts made September 17, 1981, and after, count as San Andres (HK0).",ZZ,,^HK0[A-Z0-9/]*$
+"HK0,KP3,KS4",Serrana Bank & Roncador Cay,NA,11,07,228,Y,N,N,,1981-09-16,"Contacts made September 17, 1981, and after, count as San Andres (HK0).",ZZ,,^(HK0|KP3|KS4)[A-Z0-9/]*$
 I1,Trieste,EU,28,15,271,Y,N,N,,1957-03-31,,ZZ,,^I1[A-Z0-9/]*$
 I5,Italian Somaliland,AF,48,37,115,Y,N,N,,1960-06-30,,ZZ,,^I5[A-Z0-9/]*$
 JZ0,Netherlands New Guinea,OC,51,28,184,Y,N,N,,1963-04-30,,ZZ,,^JZ0[A-Z0-9/]*$
 KH5K,Kingman Reef,OC,61,31,134,Y,N,N,,2016-03-29,,ZZ,,^KH5K[A-Z0-9/]*$
 "KR6,KR8,JR6,KA6",Ryukyu Islands,AS,45,25,193,Y,N,N,,1972-05-14,"Contacts made May 15, 1972, and after, count as Japan (JA-JS,7J-7N).",ZZ,,^(KR[68]|JR6|KA6)[A-Z0-9/]*$
-KS4,Swan Is.,NA,11,7,261,Y,N,N,,1972-08-31,"Contacts made September 1, 1972, and after, count as Honduras (HQ,HR).",ZZ,,^KS4[A-Z0-9/]*$
-KZ5,Panama Canal Zone,NA,11,7,28,Y,N,N,,1979-09-30,,ZZ,,^KZ5[A-Z0-9/]*$
+KS4,Swan Is.,NA,11,07,261,Y,N,N,,1972-08-31,"Contacts made September 1, 1972, and after, count as Honduras (HQ,HR).",ZZ,,^KS4[A-Z0-9/]*$
+KZ5,Panama Canal Zone,NA,11,07,28,Y,N,N,,1979-09-30,,ZZ,,^KZ5[A-Z0-9/]*$
 "OK,OL,OM",Czechoslovakia,EU,28,15,218,Y,N,N,,1992-12-31,,ZZ,,^O[K-M][A-Z0-9/]*$
 "P2,VK9",Papua Territory,OC,51,28,198,Y,N,N,,1975-09-15,"Contacts made September 16, 1975, and after, count as Papua New Guinea (P2).",ZZ,,^(P2|VK9)[A-Z0-9/]*$
 "P2,VK9",Territory of New Guinea,OC,51,28,267,Y,N,N,,1975-09-15,"Contacts made September 16, 1975, and after, count as Papua New Guinea (P2).",ZZ,,^(P2|VK9)[A-Z0-9/]*$
-PJ,Bonaire and Curaçao,SA,11,9,85,Y,N,N,,2010-10-09,,ZZ,,^PJ[A-Z0-9/]*$
-PJ,"St. Maarten, Saba, St. Eustatius",NA,11,8,255,Y,N,N,,2010-10-09,,ZZ,,^PJ[A-Z0-9/]*$
+PJ,Bonaire and Curaçao,SA,11,09,85,Y,N,N,,2010-10-09,,ZZ,,^PJ[A-Z0-9/]*$
+PJ,"St. Maarten, Saba, St. Eustatius",NA,11,08,255,Y,N,N,,2010-10-09,,ZZ,,^PJ[A-Z0-9/]*$
 "PK1,PK2,PK3",Java,OC,54,28,119,Y,N,N,,1963-04-30,"Contacts made May 1, 1963, and after, count as Indonesia (YB-YH).",ZZ,,^PK[1-3][A-Z0-9/]*$
 PK4,Sumatra,OC,54,28,258,Y,N,N,,1963-04-30,"Contacts made May 1, 1963, and after, count as Indonesia (YB-YH).",ZZ,,^PK4[A-Z0-9/]*$
 PK5,Netherlands Borneo,OC,54,28,183,Y,N,N,,1963-04-30,"Contacts made May 1, 1963, and after, count as Indonesia (YB-YH).",ZZ,,^PK5[A-Z0-9/]*$
@@ -385,7 +385,7 @@ PK6,Celebes and the Molucca Islands,OC,54,28,30,Y,N,N,,1963-04-30,"Contacts made
 R1/M,Maly Vysotsky Island,EU,29,16,151,Y,N,N,,2012-02-16,,ZZ,,^R1/M[A-Z0-9/]*$
 ST0,Southern Sudan,AF,"47,48",34,244,Y,N,N,1972-05-07,1994-12-31,,ZZ,,^ST0[A-Z0-9/]*$
 UN1,Karelo-Finnish Soviet Socialist Republic,EU,19,16,128,Y,N,N,,1960-06-30,"Contacts made July 1, 1960, and after, count as European Russia (UA-UI1-7,RA-RZ).",ZZ,,^UN1[A-Z0-9/]*$
-VO,"Newfoundland, Labrador",NA,9,"02,05",186,Y,N,N,,1949-03-31,"Contacts made April 1, 1949, and after, count as Canada (VA-VG,VO,VY).",ZZ,,^VO[A-Z0-9/]*$
+VO,"Newfoundland, Labrador",NA,09,"02,05",186,Y,N,N,,1949-03-31,"Contacts made April 1, 1949, and after, count as Canada (VA-VG,VO,VY).",ZZ,,^VO[A-Z0-9/]*$
 "VQ1,5H1",Zanzibar,AF,53,37,307,Y,N,N,,1974-05-31,"Contacts made June 1, 1974, and after, count as Tanzania (5H,5I).",ZZ,,^(VQ1|5H1)[A-Z0-9/]*$
 VQ6,British Somaliland,AF,48,37,26,Y,N,N,,1960-06-30,,ZZ,,^VQ6[A-Z0-9/]*$
 VQ9,Aldabra,AF,53,39,8,Y,N,N,,1976-06-28,"Contacts made June 29, 1976, and after, count as Seychelles (S7).",ZZ,,^VQ9[A-Z0-9/]*$

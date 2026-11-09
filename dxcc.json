@@ -2779,8 +2779,8 @@
       "name": "Juan de Nova and Europa Islands",
       "notes": "",
       "outgoingQslService": true,
-      "prefix": "FT/J,E,TO",
-      "prefixRegex": "^(FT\\/J|E|TO)[A-Z0-9/]*$",
+      "prefix": "FT/J,FT/E,TO",
+      "prefixRegex": "^(FT\\/(?:J|E)|TO)[A-Z0-9/]*$",
       "thirdPartyTraffic": false,
       "validEnd": "",
       "validStart": "1960-06-25"

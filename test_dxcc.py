@@ -50,6 +50,11 @@ class DxccRegexTests(unittest.TestCase):
             with self.subTest(entity=entity_code):
                 self.assert_matches(entity_code, *callsigns)
 
+    def test_juan_de_nova_and_europa_prefixes_do_not_match_bare_e_callsigns(self):
+        self.assert_matches(124, 'FT/J0A', 'FT/E0A', 'TO0A')
+        pattern = self.rows['124']['prefixRegex']
+        self.assertIsNone(re.fullmatch(pattern, 'E50A'))
+
     def test_portugal_does_not_claim_azores_cu_prefix(self):
         self.assertIsNone(re.fullmatch(self.rows['272']['prefixRegex'], 'CU0A'))
 

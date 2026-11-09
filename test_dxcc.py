@@ -8,7 +8,8 @@ class DxccRegexTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         with open('dxcc-2026-01.csv', encoding='utf8', newline='') as infile:
-            cls.rows = {row['entityCode']: row for row in csv.DictReader(infile)}
+            cls.source_rows = list(csv.DictReader(infile))
+        cls.rows = {row['entityCode']: row for row in cls.source_rows}
 
     def assert_matches(self, entity_code, *callsigns):
         row = self.rows[str(entity_code)]
@@ -18,6 +19,15 @@ class DxccRegexTests(unittest.TestCase):
                 pattern.fullmatch(callsign),
                 f'{callsign} must match {entity_code} {row["name"]}: {pattern.pattern}',
             )
+
+    def test_entity_codes_are_unique_and_match_generated_json(self):
+        source_codes = [int(row['entityCode']) for row in self.source_rows]
+        self.assertEqual(len(source_codes), len(set(source_codes)))
+
+        with open('dxcc.json', encoding='utf8') as infile:
+            generated_codes = [row['entityCode'] for row in json.load(infile)['dxcc']]
+        self.assertEqual(len(generated_codes), len(set(generated_codes)))
+        self.assertEqual(set(source_codes), set(generated_codes))
 
     def test_generated_json_identifies_its_source_edition(self):
         with open('dxcc.json', encoding='utf8') as infile:

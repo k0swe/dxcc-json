@@ -50,7 +50,7 @@ $ < dxcc.json jq -c '{dxcc: [ .dxcc[] | select( .deleted==false ) |
 
 ## FAQ
 
-### Can a callsign prefix uniquely identify a DXCC entity? Are they mutually exclusive?
+### Can a callsign prefix uniquely identify a DXCC entity? Are the prefixes mutually exclusive?
 
 No. The `prefixRegex` fields are useful for identifying candidate entities, but
 some DXCC entities share callsign allocations. Applications should use an
